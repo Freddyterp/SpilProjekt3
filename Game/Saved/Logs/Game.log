@@ -1,4 +1,4 @@
-﻿Log file open, 03/15/19 17:24:04
+﻿Log file open, 03/15/19 17:16:50
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Game
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.249945
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.518171
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.162s to configure plugins.
+LogStreaming: Display: Took  0.098s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 520
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 960
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -149,409 +149,1097 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:187][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-16.24.05:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.15-16.24.05:214][  0]LogHAL: Display: Platform has ~ 16 GB [17057013760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.15-16.24.05:215][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2019.03.15-16.24.05:217][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.15-16.24.05:217][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.15-16.24.05:217][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:217][  0]LogInit: Computer: DESKTOP-FDNF9FS
-[2019.03.15-16.24.05:217][  0]LogInit: User: Frederik
-[2019.03.15-16.24.05:217][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.03.15-16.24.05:217][  0]LogInit: High frequency timer resolution =2.437500 MHz
-[2019.03.15-16.24.05:218][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.15-16.24.05:218][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.15-16.24.05:218][  0]LogMemory: Process Physical Memory: 102.51 MB used, 102.51 MB peak
-[2019.03.15-16.24.05:218][  0]LogMemory: Process Virtual Memory: 84.83 MB used, 84.83 MB peak
-[2019.03.15-16.24.05:218][  0]LogMemory: Physical Memory: 8605.45 MB used,  7661.39 MB free, 16266.84 MB total
-[2019.03.15-16.24.05:218][  0]LogMemory: Virtual Memory: 4628.92 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.03.15-16.24.05:250][  0]LogInit: Using OS detected language (da-DK).
-[2019.03.15-16.24.05:250][  0]LogInit: Using OS detected locale (da-DK).
-[2019.03.15-16.24.05:252][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
-[2019.03.15-16.24.05:995][  0]LogStreaming: Display: Took  0.745s to InitEngineTextLocalization.
-[2019.03.15-16.24.06:030][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.15-16.24.06:030][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.15-16.24.06:406][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-16.24.06:406][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.15-16.24.06:443][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2019.03.15-16.24.06:443][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.03.15-16.24.06:925][  0]LogD3D11RHI:    1. 'AMD Radeon (TM) R7 M360' (Feature Level 11_0)
-[2019.03.15-16.24.06:925][  0]LogD3D11RHI:       2039/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2019.03.15-16.24.06:942][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.15-16.24.06:943][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.15-16.24.06:943][  0]LogWindows: EnumDisplayDevices:
-[2019.03.15-16.24.06:943][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2019.03.15-16.24.06:943][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-16.24.06:943][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-16.24.06:944][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R7 M360
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.03.15-16.24.06:944][  0]LogRHI: Texture pool is 1427 MB (70% of 2039 MB)
-[2019.03.15-16.24.06:978][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.15-16.24.07:006][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.03.15-16.24.07:745][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.15-16.24.07:770][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.15-16.24.07:795][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.15-16.24.07:818][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.15-16.24.07:843][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.15-16.24.07:873][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.15-16.24.07:896][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.15-16.24.07:924][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.15-16.24.07:933][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:071][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.15-16.24.08:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-16.24.08:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-16.24.08:218][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-16.24.08:218][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-16.24.08:246][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.15-16.24.08:274][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.15-16.24.08:292][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.15-16.24.08:314][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.15-16.24.08:507][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/22152/).
-[2019.03.15-16.24.08:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik/AppData/Local/Temp/UnrealShaderWorkingDir/0721C05047E40A8FF56BB49D45D93BB7/'.
-[2019.03.15-16.24.08:513][  0]LogXGEController: Cleaning working directory: C:/Users/Frederik/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.15-16.24.08:514][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.15-16.24.08:514][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.15-16.24.08:514][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.15-16.24.09:608][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:819][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.15-16.24.09:823][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.15-16.24.09:823][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.15-16.24.09:960][  0]LogAssetRegistry: FAssetRegistry took 0.0483 seconds to start up
-[2019.03.15-16.24.10:747][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-16.24.11:110][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.15-16.24.11:147][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
-[2019.03.15-16.24.12:189][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.120425 seconds
-[2019.03.15-16.24.12:202][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.03.15-16.24.12:202][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.03.15-16.24.12:202][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.15-16.24.13:972][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.15-16.24.13:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.15-16.24.15:305][  0]SourceControl: Source control is disabled
-[2019.03.15-16.24.16:303][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.15-16.24.16:392][  0]LogOcInput: OculusInput pre-init called
-[2019.03.15-16.24.16:599][  0]LogEngine: Initializing Engine...
-[2019.03.15-16.24.16:601][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-16.24.16:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.15-16.24.16:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-16.24.16:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-16.24.16:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-16.24.17:060][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.15-16.24.17:100][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.15-16.24.17:152][  0]LogInit: XAudio2 using 'Højttaler / høretelefoner (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.15-16.24.17:191][  0]LogInit: FAudioDevice initialized.
-[2019.03.15-16.24.17:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.15-16.24.17:408][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-16.24.17:423][  0]LogInit: Texture streaming: Enabled
-[2019.03.15-16.24.17:463][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.15-16.24.17:494][  0]LogInit: Transaction tracking system initialized
-[2019.03.15-16.24.17:551][  0]BlueprintLog: New page: Editor Load
-[2019.03.15-16.24.17:741][  0]LocalizationService: Localization service is disabled
-[2019.03.15-16.24.19:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/' took 0.03s
-[2019.03.15-16.24.19:492][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.15-16.24.19:492][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.15-16.24.19:493][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-16.24.19:779][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.15-16.24.19:780][  0]LightingResults: New page: Lighting Build
-[2019.03.15-16.24.19:787][  0]MapCheck: New page: Map Check
-[2019.03.15-16.24.19:787][  0]LightingResults: New page: Lighting Build
-[2019.03.15-16.24.20:952][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.03.15-16.24.20:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.15-16.24.21:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.15-16.24.21:028][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,266ms to complete.
-[2019.03.15-16.24.21:029][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.250
-[2019.03.15-16.24.21:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:247][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:268][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:285][  0]LogCollectionManager: Loaded 0 collections in 0.005722 seconds
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Collections/' took 0.01s
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Developers/Frederik/Collections/' took 0.01s
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Collections/' took 0.04s
-[2019.03.15-16.24.21:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.15-16.24.21:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0215 seconds. Added 2651 classes and 620 folders.
-[2019.03.15-16.24.21:393][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.21:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:412][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:414][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:415][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:417][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:420][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:420][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:421][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:423][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:424][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.21:536][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.03.15-16.24.21:571][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.15-16.24.21:574][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.15-16.24.21:586][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.15-16.24.21:789][  0]LogRenderer: Reallocating scene render targets to support 1096x512 Format 9 NumSamples 1 (Frame:1).
-[2019.03.15-16.24.22:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.22:087][  0]LogLoad: (Engine Initialization) Total time: 20.37 seconds
-[2019.03.15-16.24.22:087][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.15-16.24.22:219][  0]LogContentStreaming: Texture pool size now 600 MB
-[2019.03.15-16.24.22:250][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.15-16.24.22:680][  4]LogAssetRegistry: Asset discovery search completed in 12.7463 seconds
-[2019.03.15-16.24.22:682][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.15-16.24.22:682][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
-[2019.03.15-16.24.49:346][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.16.51:718][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.15-16.16.51:718][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.15-16.16.51:718][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.15-16.16.51:719][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:719][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-16.16.51:728][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:728][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.15-16.16.51:729][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.15-16.16.51:731][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-16.16.51:731][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-16.16.51:779][  0]LogHAL: Display: Platform has ~ 16 GB [17100660736 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.15-16.16.51:779][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.15-16.16.51:779][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.15-16.16.51:779][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-16.16.51:780][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.15-16.16.51:781][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.15-16.16.51:781][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-16.16.51:781][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.15-16.16.51:781][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.15-16.16.51:781][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.15-16.16.51:784][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.15-16.16.51:784][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal Projekter/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-16.16.51:785][  0]LogInit: Computer: DESKTOP-QH434EE
+[2019.03.15-16.16.51:785][  0]LogInit: User: jonas
+[2019.03.15-16.16.51:785][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.15-16.16.51:785][  0]LogInit: High frequency timer resolution =3.609372 MHz
+[2019.03.15-16.16.51:786][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-16.16.51:786][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-16.16.51:786][  0]LogMemory: Process Physical Memory: 104.45 MB used, 104.45 MB peak
+[2019.03.15-16.16.51:786][  0]LogMemory: Process Virtual Memory: 94.39 MB used, 94.39 MB peak
+[2019.03.15-16.16.51:786][  0]LogMemory: Physical Memory: 4727.57 MB used,  11580.89 MB free, 16308.46 MB total
+[2019.03.15-16.16.51:786][  0]LogMemory: Virtual Memory: 4668.23 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.03.15-16.16.52:368][  0]LogInit: Using OS detected language (da-DK).
+[2019.03.15-16.16.52:368][  0]LogInit: Using OS detected locale (da-DK).
+[2019.03.15-16.16.52:374][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2019.03.15-16.16.52:783][  0]LogStreaming: Display: Took  0.415s to InitEngineTextLocalization.
+[2019.03.15-16.16.52:784][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.15-16.16.52:871][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.15-16.16.52:871][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.15-16.16.54:492][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-16.16.54:492][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-16.16.54:553][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.03.15-16.16.54:553][  0]LogD3D11RHI:       4053/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.15-16.16.54:555][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-16.16.54:555][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-16.16.54:555][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-16.16.54:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-16.16.54:562][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-16.16.54:562][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-16.16.54:562][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.03.15-16.16.54:562][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2019.03.15-16.16.54:562][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.03.15-16.16.54:562][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.03.15-16.16.54:562][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.15-16.16.54:562][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.03.15-16.16.54:563][  0]LogD3D11RHI:   Driver Version: 419.35 (internal:25.21.14.1935, unified:419.35)
+[2019.03.15-16.16.54:563][  0]LogD3D11RHI:      Driver Date: 3-1-2019
+[2019.03.15-16.16.54:563][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.03.15-16.16.54:601][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-16.16.54:634][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.15-16.16.55:183][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-16.16.55:196][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-16.16.55:211][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-16.16.55:224][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-16.16.55:242][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.15-16.16.55:258][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-16.16.55:273][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-16.16.55:287][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-16.16.55:294][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-16.16.55:367][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-16.16.55:437][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-16.16.55:437][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-16.16.55:455][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-16.16.55:455][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-16.16.55:468][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-16.16.55:480][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-16.16.55:492][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-16.16.55:510][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-16.16.55:548][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-16.16.55:548][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-16.16.55:548][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.15-16.16.55:731][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (E:/Unreal Projekter/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/14928/).
+[2019.03.15-16.16.55:731][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jonas/AppData/Local/temp/UnrealShaderWorkingDir/A2D775154D04FD8979BBCA83B271816B/'.
+[2019.03.15-16.16.55:735][  0]LogXGEController: Cleaning working directory: C:/Users/jonas/AppData/Local/temp/UnrealXGEWorkingDir/
+[2019.03.15-16.16.55:735][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.15-16.16.55:735][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.15-16.16.55:736][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.15-16.16.57:217][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.15-16.16.57:994][  0]LogDerivedDataCache: Loaded boot cache 0.78s 84MB C:/Users/jonas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-16.16.57:995][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jonas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.15-16.16.57:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal Projekter/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-16.16.57:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-16.16.57:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal Projekter/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-16.16.57:995][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-16.16.58:048][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-16.16.58:048][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-16.16.58:048][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.15-16.16.58:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jonas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-16.16.58:062][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.15-16.16.58:062][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.15-16.16.58:106][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.15-16.16.58:117][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.15-16.16.58:132][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-16.16.58:415][  0]LogAssetRegistry: FAssetRegistry took 0.0341 seconds to start up
+[2019.03.15-16.16.58:781][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-16.16.59:149][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-16.16.59:181][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-16.16.59:181][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.15-16.16.59:182][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-16.16.59:182][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.15-16.16.59:253][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
+[2019.03.15-16.17.00:849][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.035561 seconds
+[2019.03.15-16.17.00:857][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.15-16.17.00:857][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.03.15-16.17.00:857][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-16.17.04:176][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-16.17.04:194][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-16.17.05:014][  0]SourceControl: Source control is disabled
+[2019.03.15-16.17.05:014][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:014][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:015][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.03.15-16.17.05:037][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:037][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:038][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.03.15-16.17.05:045][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:045][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.05:046][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.03.15-16.17.05:464][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.15-16.17.05:598][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-16.17.05:927][  0]LogEngine: Initializing Engine...
+[2019.03.15-16.17.05:934][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-16.17.05:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.03.15-16.17.05:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-16.17.05:944][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-16.17.05:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-16.17.06:337][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.15-16.17.06:454][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-16.17.06:519][  0]LogInit: XAudio2 using 'Højttalere +SSE3 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-16.17.06:549][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-16.17.06:550][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.15-16.17.06:668][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/jonas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-16.17.06:676][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-16.17.06:708][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.15-16.17.06:807][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-16.17.06:892][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-16.17.07:183][  0]LocalizationService: Localization service is disabled
+[2019.03.15-16.17.08:195][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-16.17.08:196][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.15-16.17.08:199][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projekter/SpilProjekt3/Game/Content/' took 0.03s
+[2019.03.15-16.17.08:199][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.15-16.17.08:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-16.17.08:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-16.17.08:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-16.17.08:200][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-16.17.08:591][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:591][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:592][  0]LogWindows: Warning: URL: C:\Users\jonas\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.03.15-16.17.08:593][  0]LogWindows: Warning: CreateProc failed: Den angivne fil blev ikke fundet. (0x00000002)
+[2019.03.15-16.17.08:593][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.03.15-16.17.08:595][  0]Cmd: MAP LOAD FILE="E:/Unreal Projekter/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-16.17.08:598][  0]LightingResults: New page: Lighting Build
+[2019.03.15-16.17.08:623][  0]MapCheck: New page: Map Check
+[2019.03.15-16.17.08:623][  0]LightingResults: New page: Lighting Build
+[2019.03.15-16.17.10:253][  0]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.03.15-16.17.10:392][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.15-16.17.10:392][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.17.10:392][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.17.10:392][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.17.10:392][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-16.17.10:492][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.03.15-16.17.10:534][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-16.17.10:536][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,564ms to complete.
+[2019.03.15-16.17.10:536][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.942
+[2019.03.15-16.17.10:893][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-16.17.10:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-16.17.10:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-16.17.10:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-16.17.10:946][  0]LogCollectionManager: Loaded 0 collections in 0.001653 seconds
+[2019.03.15-16.17.11:027][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/Collections/' took 0.01s
+[2019.03.15-16.17.11:027][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projekter/SpilProjekt3/Game/Content/Developers/jonas/Collections/' took 0.01s
+[2019.03.15-16.17.11:027][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projekter/SpilProjekt3/Game/Content/Collections/' took 0.01s
+[2019.03.15-16.17.11:027][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.15-16.17.11:040][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2651 classes and 620 folders.
+[2019.03.15-16.17.11:065][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.15-16.17.11:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:091][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:152][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:159][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:165][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:193][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:205][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:212][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:220][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:258][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:264][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:328][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:336][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:343][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:350][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:357][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:363][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-16.17.11:547][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.15-16.17.11:564][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.15-16.17.11:882][  0]LogSlate: Took 0.004988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.15-16.17.11:896][  0]LogSlate: Took 0.006101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.15-16.17.11:913][  0]LogSlate: Took 0.003916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.15-16.17.12:081][  0]LogRenderer: Reallocating scene render targets to support 1164x596 Format 10 NumSamples 1 (Frame:1).
+[2019.03.15-16.17.12:372][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.15-16.17.12:372][  0]LogLoad: (Engine Initialization) Total time: 26.81 seconds
+[2019.03.15-16.17.12:372][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.15-16.17.12:503][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.15-16.17.12:558][  0]LogSlate: Took 0.005312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-16.17.12:678][  2]LogAssetRegistry: Asset discovery search completed in 14.2849 seconds
+[2019.03.15-16.17.12:681][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.15-16.17.12:681][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000763 seconds (updated 0 objects)
+[2019.03.15-16.17.15:545][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.17.54:874][ 92]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-16.17.55:084][ 92]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/ThirdPersonExampleMap962A756140805E387C536F9EF2BCAF9C.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.03.15-16.17.55:284][ 92]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/ThirdPersonExampleMap_BuiltDataCA668D074D61BC7832C99A8AD1FD9F3B.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.03.15-16.17.56:310][195]LogAssetEditorManager: Opening Asset editor for Material /Game/test.test
+[2019.03.15-16.17.56:314][195]LogMaterial: Display: Missing cached shader map for material test, compiling. 
+[2019.03.15-16.17.56:711][195]LogMaterial: Display: Missing cached shader map for material test, compiling. 
+[2019.03.15-16.17.56:732][195]LogMaterial: Display: Missing cached shader map for material test, compiling. 
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.17.56:749][195]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.17.56:825][195]LogSlate: Took 0.006338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.15-16.17.57:078][197]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.17.57:116][200]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.17.57:116][200]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.17.57:116][200]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.17.57:137][202]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.17.57:146][203]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.17.57:146][203]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.17.57:146][203]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.17.57:217][211]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.17.57:327][219]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.17.57:368][222]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.17.57:481][231]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.17.57:492][232]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.17.57:732][257]MaterialEditorStats: Base pass shader: 103 instructions
+[2019.03.15-16.17.57:732][257]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 177 instructions
+[2019.03.15-16.17.57:732][257]MaterialEditorStats: Base pass vertex shader: 35 instructions
+[2019.03.15-16.17.57:732][257]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.15-16.17.58:618][360]LogMaterialEditor: Saving and Compiling material test
+[2019.03.15-16.17.58:642][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/test" FILE="E:/Unreal Projekter/SpilProjekt3/Game/Content/test.uasset" SILENT=true
+[2019.03.15-16.17.58:658][360]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/test20CFF5A84E502EE835D2649006ED58C4.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Content/test.uasset'
+[2019.03.15-16.18.00:538][582]LogSlate: Window 'test' being destroyed
+[2019.03.15-16.18.00:542][582]LogSlate: Window 'test' being destroyed
+[2019.03.15-16.20.36:292][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height0'
+[2019.03.15-16.20.36:292][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height0'
+[2019.03.15-16.20.36:292][626]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height0.Height0'
+[2019.03.15-16.20.36:292][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height2'
+[2019.03.15-16.20.36:292][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height2'
+[2019.03.15-16.20.36:293][626]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height2.Height2'
+[2019.03.15-16.20.36:293][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height1'
+[2019.03.15-16.20.36:293][626]LogLinker: Warning: Can't find file '/Game/ExampleContent/BlueprintFluidSurface/Height1'
+[2019.03.15-16.20.36:293][626]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height1.Height1'
+[2019.03.15-16.20.43:011][626]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.20.43:048][626]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.20.43:048][626]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.20.43:048][626]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.20.43:865][626]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.20.43:885][626]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.15-16.20.43:885][626]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-16.20.43:886][626]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.20.43:886][626]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.20.43:886][626]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.20.44:031][626]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.20.44:087][626]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.15-16.20.44:698][626]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-16.20.44:899][626]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.20.45:748][626]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.20.45:850][626]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.03.15-16.20.45:965][626]LogAIModule: Creating AISystem for world LevelMap
+[2019.03.15-16.20.46:140][626]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.03.15-16.20.46:140][626]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.15-16.20.46:238][626]LogAssetEditorManager: Opening Asset editor for World /Game/LevelMap.LevelMap
+[2019.03.15-16.20.46:280][626]Cmd: MAP LOAD FILE="E:/Unreal Projekter/SpilProjekt3/Game/Content/LevelMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-16.20.46:280][626]LightingResults: New page: Lighting Build
+[2019.03.15-16.20.46:281][626]LoadErrors: New page: Loading map: LevelMap.umap
+[2019.03.15-16.20.46:287][626]MapCheck: New page: Map Check
+[2019.03.15-16.20.46:287][626]LightingResults: New page: Lighting Build
+[2019.03.15-16.20.46:319][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.46:319][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.46:319][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.49:878][626]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.15-16.20.49:878][626]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.20.49:878][626]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.20.49:998][626]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-16.20.50:050][626]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-16.20.50:050][626]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,076ms to complete.
+[2019.03.15-16.20.50:050][626]LogFileHelpers: Loading map 'LevelMap' took 3.774
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_0) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(42,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(42,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_162) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(48,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_164) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:090][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(48,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2481) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(48,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2483) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.50:091][626]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(48,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.20.58:888][655]LogRenderer: Reallocating scene render targets to support 1164x1024 Format 10 NumSamples 1 (Frame:1).
+[2019.03.15-16.20.58:888][655]LogRenderer: Warning: Gaussian DOF algorithm is deprecated and will be removed from deferred shading renderer. Consider using the Circle DOF method in post process settings.
+[2019.03.15-16.22.45:435][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.22.48:487][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.23.14:746][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.23.19:106][ 25]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/TerrianMat.TerrianMat
+[2019.03.15-16.23.19:109][ 25]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.23.19:183][ 25]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.23.19:197][ 25]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.23.19:212][ 25]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.23.19:237][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2019.03.15-16.23.19:242][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.15-16.23.19:248][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.15-16.23.19:254][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.15-16.23.19:260][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2019.03.15-16.23.19:269][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.15-16.23.19:276][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.15-16.23.19:282][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2019.03.15-16.23.19:288][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2019.03.15-16.23.19:296][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2019.03.15-16.23.19:302][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2019.03.15-16.23.19:309][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2019.03.15-16.23.19:316][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2019.03.15-16.23.19:322][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2019.03.15-16.23.19:328][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2019.03.15-16.23.19:333][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2019.03.15-16.23.19:338][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2019.03.15-16.23.19:342][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2019.03.15-16.23.19:347][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2019.03.15-16.23.19:351][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2019.03.15-16.23.19:355][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2019.03.15-16.23.19:360][ 25]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2019.03.15-16.23.19:547][ 27]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.03.15-16.23.19:587][ 30]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.15-16.23.19:591][ 30]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.03.15-16.23.19:595][ 30]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.03.15-16.23.19:595][ 30]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.03.15-16.23.19:644][ 32]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.03.15-16.23.19:648][ 32]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.03.15-16.23.19:654][ 32]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.15-16.23.19:686][ 35]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.03.15-16.23.19:806][ 47]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.03.15-16.23.19:886][ 54]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.03.15-16.23.19:981][ 62]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.15-16.23.20:018][ 65]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.03.15-16.23.20:027][ 66]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.03.15-16.23.20:035][ 67]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.15-16.23.20:086][ 72]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.15-16.23.20:104][ 74]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.15-16.23.20:144][ 78]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.15-16.23.20:230][ 87]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.15-16.23.20:240][ 88]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.15-16.23.20:240][ 88]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.15-16.23.20:288][ 93]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.15-16.23.20:315][ 96]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.15-16.23.20:342][ 99]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.15-16.23.20:367][101]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.15-16.23.20:367][101]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.23.20:367][101]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.23.20:367][101]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.23.20:378][102]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.23.20:378][102]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.23.20:397][104]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-16.23.20:437][108]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.15-16.23.20:458][110]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.15-16.23.20:494][114]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.15-16.23.20:515][116]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.15-16.23.20:541][119]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.15-16.23.20:571][123]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.15-16.23.20:608][127]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.15-16.23.20:631][129]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.15-16.23.20:647][131]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-16.23.20:696][137]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.23.20:713][139]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.23.20:736][142]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.23.20:762][145]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.23.20:803][150]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.23.20:831][153]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.23.20:846][155]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.23.20:871][158]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.23.20:906][162]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.23.20:940][166]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.23.20:957][168]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.23.20:994][172]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.23.21:025][176]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.23.21:058][180]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.23.21:076][182]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.23.21:101][185]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.23.21:149][191]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.23.21:166][193]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.23.21:183][195]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.23.21:208][198]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.23.21:250][203]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.23.21:275][206]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.43:745][560]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.43:758][560]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.43:783][560]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.43:795][560]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2019.03.15-16.26.43:874][561]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.44:135][582]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-16.26.44:153][584]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.44:161][585]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.44:161][585]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.44:170][586]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.44:222][592]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.44:222][592]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.44:232][593]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.44:335][602]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.44:378][607]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.44:388][608]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.44:397][609]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.44:397][609]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.44:407][610]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.44:407][610]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.44:415][611]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.44:462][616]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.44:490][619]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.44:520][622]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.44:608][629]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.44:673][634]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.44:775][644]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.44:824][649]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.45:049][674]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.26.45:049][674]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.45:049][674]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.45:057][675]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.45:057][675]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.45:094][679]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.45:107][679]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.45:122][679]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.45:150][679]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2019.03.15-16.26.45:307][688]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.45:316][689]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.45:324][690]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.45:331][691]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.45:341][692]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.45:366][695]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.45:374][696]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.45:381][697]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.45:443][704]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.45:536][712]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.45:577][714]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.45:592][714]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.45:705][719]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.45:736][722]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.45:746][723]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.45:756][724]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.45:794][728]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.45:816][730]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.45:837][732]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.45:881][736]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.45:895][737]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.45:952][741]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.45:962][742]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.45:972][743]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.45:983][744]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.45:991][745]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.45:999][746]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.46:007][747]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.46:036][750]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.46:073][754]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.46:197][764]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.46:210][765]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.46:366][779]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.46:398][782]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.46:640][810]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.26.46:640][810]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.46:640][810]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.46:648][811]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.46:648][811]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.48:150][986]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.48:159][986]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (21 / 21)
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.48:211][987]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.48:341][999]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.48:341][999]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.48:357][  1]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.48:364][  2]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.48:364][  2]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.48:374][  3]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.48:394][  6]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.48:403][  7]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.48:463][ 14]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.48:566][ 26]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.48:619][ 31]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.48:768][ 45]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.48:782][ 46]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.49:023][ 72]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.26.49:023][ 72]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.49:023][ 72]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.49:157][ 88]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.49:157][ 88]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.52:226][447]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.52:236][447]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.52:239][447]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.52:277][447]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2019.03.15-16.26.52:403][456]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-16.26.52:412][457]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.52:416][457]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.52:424][458]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.52:432][459]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.52:441][460]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.52:465][463]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.52:473][464]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.52:580][475]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.52:588][476]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.52:605][478]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.52:605][478]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.52:613][479]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.52:630][481]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.52:630][481]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.52:646][483]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.52:705][490]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.52:723][490]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.52:815][492]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-16.26.52:849][495]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.52:978][508]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.52:996][509]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.52:996][509]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.53:038][511]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.53:046][512]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.53:055][513]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.53:067][514]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.53:132][520]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.53:181][525]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.53:199][527]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.53:208][528]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.53:216][529]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.53:216][529]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.53:231][531]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.53:231][531]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.53:239][532]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.53:300][539]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.53:427][551]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.53:439][552]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.53:524][559]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.53:543][559]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.53:588][559]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2019.03.15-16.26.53:640][560]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.53:640][560]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.53:640][560]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.53:640][560]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.53:640][560]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.53:658][562]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.53:714][568]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.53:756][572]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.53:780][575]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.53:788][576]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.53:807][578]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.53:815][579]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.53:832][581]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.53:832][581]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.53:849][583]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.53:857][584]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.53:908][590]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.53:992][596]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.54:086][597]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-16.26.54:086][597]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-16.26.54:174][606]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.54:195][608]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.54:216][610]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.54:243][613]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.54:260][615]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.54:271][616]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.54:271][616]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.54:335][622]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.54:393][628]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.54:401][629]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.54:411][630]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.54:411][630]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.54:421][631]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.54:428][632]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.54:428][632]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.54:444][634]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.54:502][641]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.54:615][654]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.54:639][657]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.54:798][675]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.54:820][677]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.55:055][703]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.26.55:055][703]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.55:055][703]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.55:064][704]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.55:064][704]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.55:559][760]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.26.55:625][761]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.26.55:744][772]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-16.26.55:753][773]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-16.26.55:762][774]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-16.26.55:762][774]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-16.26.55:777][776]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-16.26.55:786][777]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-16.26.55:805][779]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-16.26.55:811][780]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.26.55:867][786]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-16.26.55:988][796]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-16.26.56:046][800]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-16.26.56:174][812]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-16.26.56:180][813]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-16.26.56:434][843]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.26.56:435][843]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.56:435][843]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.56:536][855]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.56:536][855]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.26.59:627][216]LogMaterialEditor: Applying material TerrianMat
+[2019.03.15-16.27.01:610][216]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2019.03.15-16.27.01:897][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-16.27.01:935][216]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-16.27.01:945][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.01:967][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.01:988][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:022][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:052][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:084][216]LogShaderCompilers: Display: Shaders left to compile 119
+[2019.03.15-16.27.02:084][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:113][216]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.03.15-16.27.02:114][216]LogShaderCompilers: Display: Shaders left to compile 159
+[2019.03.15-16.27.02:114][216]LogShaderCompilers: Display: Shaders left to compile 158
+[2019.03.15-16.27.02:114][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:139][216]LogShaderCompilers: Display: Shaders left to compile 199
+[2019.03.15-16.27.02:139][216]LogShaderCompilers: Display: Shaders left to compile 198
+[2019.03.15-16.27.02:139][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:164][216]LogShaderCompilers: Display: Shaders left to compile 239
+[2019.03.15-16.27.02:164][216]LogShaderCompilers: Display: Shaders left to compile 238
+[2019.03.15-16.27.02:164][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:194][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:225][216]LogShaderCompilers: Display: Shaders left to compile 321
+[2019.03.15-16.27.02:225][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:257][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:291][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:321][216]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.03.15-16.27.02:321][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:351][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:379][216]LogShaderCompilers: Display: Shaders left to compile 529
+[2019.03.15-16.27.02:379][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:414][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:440][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:470][216]LogShaderCompilers: Display: Shaders left to compile 696
+[2019.03.15-16.27.02:470][216]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-16.27.02:529][216]LogShaderCompilers: Display: Shaders left to compile 737
+[2019.03.15-16.27.02:530][216]LogShaderCompilers: Display: Shaders left to compile 736
+[2019.03.15-16.27.02:530][216]LogShaderCompilers: Display: Shaders left to compile 726
+[2019.03.15-16.27.02:539][216]LogShaderCompilers: Display: Shaders left to compile 716
+[2019.03.15-16.27.02:539][216]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy TerrianMat, compiling. 
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 707
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 706
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 696
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 686
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 676
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: Shaders left to compile 666
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Warning: Failed to compile Material  for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Private/MaterialTexCoordScalesPixelShader.usf(134,28-55):  warning X3556: integer divides may be much slower, try using uints if possible.
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Private/MaterialTexCoordScalesPixelShader.usf(134,27-62):  warning X3556: integer modulus may be much slower, try using uints if possible.
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Private/MaterialTexCoordScalesPixelShader.usf(81,52-79):  warning X3556: integer divides may be much slower, try using uints if possible.
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Private/Common.ush(380,9-55):  warning X4121: gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Private/Common.ush(1286,13-42):  warning X4121: gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation
+[2019.03.15-16.27.03:067][216]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.03:097][216]TextureStreamingBuild: Display: Compiling optional shaders took 0.566 seconds.
+[2019.03.15-16.27.03:126][216]LogShaderCompilers: Warning: Failed to compile Material /Engine/Transient.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.03:126][216]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.03:126][216]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.04:132][293]LogShaderCompilers: Display: Shaders left to compile 656
+[2019.03.15-16.27.04:132][293]LogShaderCompilers: Display: Shaders left to compile 646
+[2019.03.15-16.27.04:630][321]LogShaderCompilers: Display: Shaders left to compile 636
+[2019.03.15-16.27.04:955][339]LogShaderCompilers: Display: Shaders left to compile 626
+[2019.03.15-16.27.05:606][374]LogShaderCompilers: Display: Shaders left to compile 616
+[2019.03.15-16.27.05:634][375]LogShaderCompilers: Display: Shaders left to compile 606
+[2019.03.15-16.27.05:634][375]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.05:634][375]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.05:634][375]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(38,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.05:655][376]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(40,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.05:655][376]MaterialEditorStats: Error: [SM5] /Engine/Generated/UniformBuffers/Material.ush(38,14-41):  error X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.05:724][379]LogShaderCompilers: Display: Shaders left to compile 596
+[2019.03.15-16.27.05:929][390]LogShaderCompilers: Display: Shaders left to compile 586
+[2019.03.15-16.27.06:616][428]LogShaderCompilers: Display: Shaders left to compile 576
+[2019.03.15-16.27.06:720][434]LogShaderCompilers: Display: Shaders left to compile 566
+[2019.03.15-16.27.07:391][465]LogShaderCompilers: Display: Shaders left to compile 556
+[2019.03.15-16.27.07:735][483]LogShaderCompilers: Display: Shaders left to compile 546
+[2019.03.15-16.27.08:255][510]LogShaderCompilers: Display: Shaders left to compile 536
+[2019.03.15-16.27.08:509][524]LogShaderCompilers: Display: Shaders left to compile 526
+[2019.03.15-16.27.08:509][524]LogShaderCompilers: Display: Shaders left to compile 516
+[2019.03.15-16.27.08:742][537]LogShaderCompilers: Display: Shaders left to compile 506
+[2019.03.15-16.27.09:193][561]LogShaderCompilers: Display: Shaders left to compile 496
+[2019.03.15-16.27.09:834][597]LogShaderCompilers: Display: Shaders left to compile 486
+[2019.03.15-16.27.10:103][612]LogShaderCompilers: Display: Shaders left to compile 476
+[2019.03.15-16.27.10:294][622]LogShaderCompilers: Display: Shaders left to compile 466
+[2019.03.15-16.27.10:758][645]LogShaderCompilers: Display: Shaders left to compile 456
+[2019.03.15-16.27.10:798][647]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.03.15-16.27.10:808][647]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2483) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(44,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2481) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(64,14-36):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.10:809][647]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(44,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.11:875][704]LogShaderCompilers: Display: Shaders left to compile 436
+[2019.03.15-16.27.11:893][705]LogShaderCompilers: Display: Shaders left to compile 426
+[2019.03.15-16.27.12:141][718]LogShaderCompilers: Display: Shaders left to compile 416
+[2019.03.15-16.27.12:141][718]LogShaderCompilers: Display: Shaders left to compile 406
+[2019.03.15-16.27.12:478][734]LogShaderCompilers: Display: Shaders left to compile 396
+[2019.03.15-16.27.13:062][766]LogShaderCompilers: Display: Shaders left to compile 386
+[2019.03.15-16.27.13:314][780]LogShaderCompilers: Display: Shaders left to compile 376
+[2019.03.15-16.27.13:635][798]LogShaderCompilers: Display: Shaders left to compile 366
+[2019.03.15-16.27.14:397][838]LogShaderCompilers: Display: Shaders left to compile 356
+[2019.03.15-16.27.14:674][853]LogShaderCompilers: Display: Shaders left to compile 346
+[2019.03.15-16.27.15:031][873]LogShaderCompilers: Display: Shaders left to compile 336
+[2019.03.15-16.27.15:048][874]LogShaderCompilers: Display: Shaders left to compile 326
+[2019.03.15-16.27.15:066][875]LogShaderCompilers: Display: Shaders left to compile 316
+[2019.03.15-16.27.15:600][905]LogShaderCompilers: Display: Shaders left to compile 306
+[2019.03.15-16.27.16:091][933]LogShaderCompilers: Display: Shaders left to compile 296
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_2) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(44,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Warning: Failed to compile Material /Game/Materials/TerrianMat.TerrianMat (MI:LandscapeMaterialInstanceConstant_0) for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Private/LandscapeVertexFactory.ush(758,2-62):  warning X3206: implicit truncation of vector type
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(44,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.16:102][933]LogShaderCompilers: Display: 	/Engine/Generated/UniformBuffers/Material.ush(40,14-41):  err0r X4510: maximum ps_5_0 sampler register index (16) exceeded
+[2019.03.15-16.27.16:489][954]LogShaderCompilers: Display: Shaders left to compile 286
+[2019.03.15-16.27.16:683][965]LogShaderCompilers: Display: Shaders left to compile 276
+[2019.03.15-16.27.16:720][967]LogShaderCompilers: Display: Shaders left to compile 266
+[2019.03.15-16.27.16:895][977]LogShaderCompilers: Display: Shaders left to compile 256
+[2019.03.15-16.27.17:680][ 20]LogShaderCompilers: Display: Shaders left to compile 246
+[2019.03.15-16.27.18:073][ 42]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.03.15-16.27.18:178][ 48]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.03.15-16.27.18:782][ 81]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.03.15-16.27.18:884][ 86]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.03.15-16.27.19:193][103]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.03.15-16.27.19:773][134]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.03.15-16.27.19:983][146]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.03.15-16.27.20:672][179]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.03.15-16.27.20:690][180]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.03.15-16.27.20:918][192]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.03.15-16.27.21:588][229]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.03.15-16.27.21:628][231]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.03.15-16.27.21:952][249]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.03.15-16.27.22:189][262]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.03.15-16.27.22:900][301]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.03.15-16.27.22:970][305]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.03.15-16.27.23:126][313]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.03.15-16.27.23:653][342]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.03.15-16.27.23:755][348]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.03.15-16.27.23:974][360]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.15-16.27.24:688][398]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.15-16.27.24:999][415]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.15-16.27.25:428][439]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-16.27.25:849][460]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-16.30.35:224][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelMap' took 0.019
+[2019.03.15-16.30.35:225][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/TerrianMat] ([1] browsable assets)...
+[2019.03.15-16.30.35:262][134]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/TerrianMat.TerrianMat]
+[2019.03.15-16.30.35:262][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/TerrianMat]
+[2019.03.15-16.30.35:262][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TerrianMat" FILE="E:/Unreal Projekter/SpilProjekt3/Game/Saved/Autosaves/Game/Materials/TerrianMat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.15-16.30.35:284][134]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/TerrianMat_Auto1F449F8BC44C48E5E9D3838B2ADE740EB.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/Autosaves/Game/Materials/TerrianMat_Auto1.uasset'
+[2019.03.15-16.30.35:285][134]LogFileHelpers: Auto-saving content packages took 0.060
+[2019.03.15-16.33.08:746][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.34.11:060][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.34.13:053][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.34.16:960][876]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.03.15-16.34.19:005][ 31]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.03.15-16.34.20:311][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-16.34.20:379][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelMap" FILE="E:/Unreal Projekter/SpilProjekt3/Game/Content/LevelMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-16.34.21:787][154]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/LevelMap401E49F84B5C5AC2012E339257B891B4.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Content/LevelMap.umap'
+[2019.03.15-16.34.21:834][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelMap_BuiltData" FILE="E:/Unreal Projekter/SpilProjekt3/Game/Content/LevelMap_BuiltData.uasset" SILENT=true
+[2019.03.15-16.34.21:983][154]LogSavePackage: Moving 'E:/Unreal Projekter/SpilProjekt3/Game/Saved/LevelMap_BuiltDataE6A73C3A45DD0EDEE2B0B192A65E37BB.tmp' to 'E:/Unreal Projekter/SpilProjekt3/Game/Content/LevelMap_BuiltData.uasset'
