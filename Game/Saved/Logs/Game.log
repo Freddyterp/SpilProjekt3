@@ -1,4 +1,4 @@
-﻿Log file open, 03/15/19 17:24:04
+﻿Log file open, 03/15/19 19:45:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: Game
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.249945
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.796697
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.162s to configure plugins.
+LogStreaming: Display: Took  0.247s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.21-CL-4753647
 LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
 LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
 LogInit: Net CL: 4541578
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 520
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070 Ti
 LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
 LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -149,409 +149,1101 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.15-16.24.05:186][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.15-16.24.05:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:187][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.15-16.24.05:190][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:190][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.15-16.24.05:191][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.15-16.24.05:192][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.15-16.24.05:193][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-16.24.05:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.15-16.24.05:214][  0]LogHAL: Display: Platform has ~ 16 GB [17057013760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.15-16.24.05:215][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.03.15-16.24.05:215][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2019.03.15-16.24.05:216][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2019.03.15-16.24.05:217][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.15-16.24.05:217][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.15-16.24.05:217][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-16.24.05:217][  0]LogInit: Computer: DESKTOP-FDNF9FS
-[2019.03.15-16.24.05:217][  0]LogInit: User: Frederik
-[2019.03.15-16.24.05:217][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.03.15-16.24.05:217][  0]LogInit: High frequency timer resolution =2.437500 MHz
-[2019.03.15-16.24.05:218][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.15-16.24.05:218][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.15-16.24.05:218][  0]LogMemory: Process Physical Memory: 102.51 MB used, 102.51 MB peak
-[2019.03.15-16.24.05:218][  0]LogMemory: Process Virtual Memory: 84.83 MB used, 84.83 MB peak
-[2019.03.15-16.24.05:218][  0]LogMemory: Physical Memory: 8605.45 MB used,  7661.39 MB free, 16266.84 MB total
-[2019.03.15-16.24.05:218][  0]LogMemory: Virtual Memory: 4628.92 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.03.15-16.24.05:250][  0]LogInit: Using OS detected language (da-DK).
-[2019.03.15-16.24.05:250][  0]LogInit: Using OS detected locale (da-DK).
-[2019.03.15-16.24.05:252][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
-[2019.03.15-16.24.05:995][  0]LogStreaming: Display: Took  0.745s to InitEngineTextLocalization.
-[2019.03.15-16.24.06:030][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.15-16.24.06:030][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.15-16.24.06:406][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-16.24.06:406][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.15-16.24.06:443][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2019.03.15-16.24.06:443][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.03.15-16.24.06:925][  0]LogD3D11RHI:    1. 'AMD Radeon (TM) R7 M360' (Feature Level 11_0)
-[2019.03.15-16.24.06:925][  0]LogD3D11RHI:       2039/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.15-16.24.06:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2019.03.15-16.24.06:942][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.15-16.24.06:943][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.15-16.24.06:943][  0]LogWindows: EnumDisplayDevices:
-[2019.03.15-16.24.06:943][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2019.03.15-16.24.06:943][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-16.24.06:943][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-16.24.06:944][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R7 M360
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.03.15-16.24.06:944][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.03.15-16.24.06:944][  0]LogRHI: Texture pool is 1427 MB (70% of 2039 MB)
-[2019.03.15-16.24.06:978][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.15-16.24.07:006][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.03.15-16.24.07:745][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.15-16.24.07:770][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.15-16.24.07:795][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.15-16.24.07:818][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.15-16.24.07:843][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.15-16.24.07:873][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.15-16.24.07:896][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.15-16.24.07:924][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.15-16.24.07:933][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-16.24.08:071][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.15-16.24.08:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-16.24.08:169][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-16.24.08:218][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-16.24.08:218][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-16.24.08:246][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.15-16.24.08:274][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.15-16.24.08:292][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.15-16.24.08:314][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-16.24.08:395][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.15-16.24.08:507][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/22152/).
-[2019.03.15-16.24.08:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik/AppData/Local/Temp/UnrealShaderWorkingDir/0721C05047E40A8FF56BB49D45D93BB7/'.
-[2019.03.15-16.24.08:513][  0]LogXGEController: Cleaning working directory: C:/Users/Frederik/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.15-16.24.08:514][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.15-16.24.08:514][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.15-16.24.08:514][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.15-16.24.09:608][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-16.24.09:756][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.15-16.24.09:769][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.15-16.24.09:819][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.15-16.24.09:823][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.15-16.24.09:823][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.15-16.24.09:960][  0]LogAssetRegistry: FAssetRegistry took 0.0483 seconds to start up
-[2019.03.15-16.24.10:747][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-16.24.11:110][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.15-16.24.11:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.15-16.24.11:147][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
-[2019.03.15-16.24.12:189][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.120425 seconds
-[2019.03.15-16.24.12:202][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.03.15-16.24.12:202][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.03.15-16.24.12:202][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.15-16.24.13:972][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.15-16.24.13:987][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.15-16.24.15:305][  0]SourceControl: Source control is disabled
-[2019.03.15-16.24.16:303][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.15-16.24.16:392][  0]LogOcInput: OculusInput pre-init called
-[2019.03.15-16.24.16:599][  0]LogEngine: Initializing Engine...
-[2019.03.15-16.24.16:601][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-16.24.16:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.15-16.24.16:603][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-16.24.16:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-16.24.16:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-16.24.17:060][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.15-16.24.17:100][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.15-16.24.17:152][  0]LogInit: XAudio2 using 'Højttaler / høretelefoner (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.15-16.24.17:191][  0]LogInit: FAudioDevice initialized.
-[2019.03.15-16.24.17:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.15-16.24.17:408][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-16.24.17:423][  0]LogInit: Texture streaming: Enabled
-[2019.03.15-16.24.17:463][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.15-16.24.17:494][  0]LogInit: Transaction tracking system initialized
-[2019.03.15-16.24.17:551][  0]BlueprintLog: New page: Editor Load
-[2019.03.15-16.24.17:741][  0]LocalizationService: Localization service is disabled
-[2019.03.15-16.24.19:492][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/' took 0.03s
-[2019.03.15-16.24.19:492][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.15-16.24.19:492][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.15-16.24.19:493][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-16.24.19:493][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-16.24.19:779][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.15-16.24.19:780][  0]LightingResults: New page: Lighting Build
-[2019.03.15-16.24.19:787][  0]MapCheck: New page: Map Check
-[2019.03.15-16.24.19:787][  0]LightingResults: New page: Lighting Build
-[2019.03.15-16.24.20:952][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.03.15-16.24.20:975][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.15-16.24.21:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.15-16.24.21:028][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,266ms to complete.
-[2019.03.15-16.24.21:029][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.250
-[2019.03.15-16.24.21:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:225][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:247][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:268][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-16.24.21:285][  0]LogCollectionManager: Loaded 0 collections in 0.005722 seconds
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Collections/' took 0.01s
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Developers/Frederik/Collections/' took 0.01s
-[2019.03.15-16.24.21:355][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Collections/' took 0.04s
-[2019.03.15-16.24.21:355][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.15-16.24.21:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0215 seconds. Added 2651 classes and 620 folders.
-[2019.03.15-16.24.21:393][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.21:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:412][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:414][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:415][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:417][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:418][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:419][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:420][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:420][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:421][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:423][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:424][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-16.24.21:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.21:536][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.03.15-16.24.21:571][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.15-16.24.21:574][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.15-16.24.21:586][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.15-16.24.21:789][  0]LogRenderer: Reallocating scene render targets to support 1096x512 Format 9 NumSamples 1 (Frame:1).
-[2019.03.15-16.24.22:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.15-16.24.22:087][  0]LogLoad: (Engine Initialization) Total time: 20.37 seconds
-[2019.03.15-16.24.22:087][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.15-16.24.22:219][  0]LogContentStreaming: Texture pool size now 600 MB
-[2019.03.15-16.24.22:250][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.15-16.24.22:680][  4]LogAssetRegistry: Asset discovery search completed in 12.7463 seconds
-[2019.03.15-16.24.22:682][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.15-16.24.22:682][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
-[2019.03.15-16.24.49:346][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.15-18.46.02:362][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.15-18.46.02:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:363][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:415][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.15-18.46.02:415][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.15-18.46.02:416][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.15-18.46.02:429][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-18.46.02:429][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-18.46.02:523][  0]LogHAL: Display: Platform has ~ 16 GB [17109925888 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.15-18.46.02:526][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.15-18.46.02:526][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.03.15-18.46.02:526][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2019.03.15-18.46.02:527][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.15-18.46.02:542][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.15-18.46.02:542][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal games/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-18.46.02:581][  0]LogInit: Computer: DESKTOP-GECV2M9
+[2019.03.15-18.46.02:581][  0]LogInit: User: Terpinator
+[2019.03.15-18.46.02:581][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.15-18.46.02:581][  0]LogInit: High frequency timer resolution =3.421882 MHz
+[2019.03.15-18.46.02:582][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-18.46.02:582][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-18.46.02:582][  0]LogMemory: Process Physical Memory: 103.66 MB used, 103.66 MB peak
+[2019.03.15-18.46.02:582][  0]LogMemory: Process Virtual Memory: 90.98 MB used, 90.98 MB peak
+[2019.03.15-18.46.02:582][  0]LogMemory: Physical Memory: 6866.45 MB used,  9450.84 MB free, 16317.30 MB total
+[2019.03.15-18.46.02:582][  0]LogMemory: Virtual Memory: 4634.47 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.03.15-18.46.03:082][  0]LogInit: Using OS detected language (da-DK).
+[2019.03.15-18.46.03:082][  0]LogInit: Using OS detected locale (da-DK).
+[2019.03.15-18.46.03:147][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2019.03.15-18.46.03:808][  0]LogStreaming: Display: Took  0.709s to InitEngineTextLocalization.
+[2019.03.15-18.46.03:844][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.15-18.46.04:387][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.15-18.46.04:387][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.15-18.46.06:792][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-18.46.06:792][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-18.46.06:856][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2019.03.15-18.46.06:856][  0]LogD3D11RHI:       8080/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.15-18.46.06:858][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-18.46.06:858][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-18.46.06:859][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-18.46.06:859][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-18.46.06:859][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-18.46.06:886][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-18.46.06:887][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-18.46.06:887][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-18.46.06:887][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2019.03.15-18.46.06:907][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows:    4. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows:    5. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows:    6. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2019.03.15-18.46.06:908][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.03.15-18.46.06:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2019.03.15-18.46.06:909][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.15-18.46.06:909][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.15-18.46.06:909][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2019.03.15-18.46.06:961][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-18.46.07:308][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.15-18.46.08:725][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-18.46.08:820][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-18.46.08:850][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-18.46.08:878][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-18.46.08:936][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.15-18.46.08:991][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-18.46.09:022][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-18.46.09:042][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-18.46.09:061][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-18.46.09:210][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-18.46.09:390][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-18.46.09:390][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-18.46.09:428][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-18.46.09:428][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-18.46.09:454][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-18.46.09:476][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-18.46.09:501][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-18.46.09:530][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-18.46.09:580][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-18.46.09:580][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-18.46.09:580][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.15-18.46.10:605][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../Unreal games/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/25696/).
+[2019.03.15-18.46.10:605][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teepinator/AppData/Local/Temp/UnrealShaderWorkingDir/5944882F44274398F5CB5BA8D27F5E33/'.
+[2019.03.15-18.46.10:623][  0]LogXGEController: Cleaning working directory: C:/Users/Teepinator/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.15-18.46.10:623][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.15-18.46.10:623][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.15-18.46.10:623][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.15-18.46.14:148][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: Loaded boot cache 0.47s 71MB C:/Users/Teepinator/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Teepinator/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal games/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal games/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-18.46.14:619][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-18.46.14:726][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-18.46.14:726][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-18.46.14:726][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.15-18.46.14:739][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teepinator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-18.46.14:739][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.15-18.46.14:739][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.15-18.46.14:785][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.15-18.46.14:861][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.15-18.46.14:962][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-18.46.15:798][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2019.03.15-18.46.21:741][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-18.46.24:213][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-18.46.24:558][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-18.46.24:558][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.15-18.46.24:559][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-18.46.24:559][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.15-18.46.25:524][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
+[2019.03.15-18.46.31:505][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.243209 seconds
+[2019.03.15-18.46.31:555][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.15-18.46.31:555][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.03.15-18.46.31:555][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-18.46.52:456][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-18.46.52:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-18.46.56:286][  0]SourceControl: Source control is disabled
+[2019.03.15-18.46.59:807][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.15-18.47.00:157][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-18.47.02:386][  0]LogEngine: Initializing Engine...
+[2019.03.15-18.47.02:432][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-18.47.02:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-18.47.02:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-18.47.02:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-18.47.02:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-18.47.02:910][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.15-18.47.03:404][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-18.47.03:583][  0]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-18.47.03:616][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-18.47.03:616][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.15-18.47.03:716][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Teepinator/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-18.47.03:725][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-18.47.03:957][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.15-18.47.04:237][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-18.47.04:646][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-18.47.06:174][  0]LocalizationService: Localization service is disabled
+[2019.03.15-18.47.09:845][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal games/SpilProjekt3/Game/Content/' took 0.04s
+[2019.03.15-18.47.09:845][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-18.47.09:849][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.15-18.47.09:849][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.15-18.47.09:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-18.47.09:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-18.47.09:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-18.47.09:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-18.47.12:782][  0]LogSlate: Took 0.012816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.15-18.47.16:214][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.03.15-18.47.16:214][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.16:301][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.16:417][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.16:463][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.17:274][  0]LogSlate: Window 'Failed to restore packages!' being destroyed
+[2019.03.15-18.47.17:274][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.17:298][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-18.47.17:346][  0]Cmd: MAP LOAD FILE="../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-18.47.17:349][  0]LightingResults: New page: Lighting Build
+[2019.03.15-18.47.17:528][  0]MapCheck: New page: Map Check
+[2019.03.15-18.47.17:528][  0]LightingResults: New page: Lighting Build
+[2019.03.15-18.47.21:189][  0]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.03.15-18.47.21:372][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.15-18.47.21:372][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-18.47.21:372][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-18.47.21:372][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-18.47.23:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-18.47.23:461][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-18.47.23:515][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41,802ms to complete.
+[2019.03.15-18.47.23:519][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.202
+[2019.03.15-18.47.26:141][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-18.47.26:141][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.47.26:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.47.26:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.47.26:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.47.26:270][  0]LogCollectionManager: Loaded 0 collections in 0.000919 seconds
+[2019.03.15-18.47.26:381][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal games/SpilProjekt3/Game/Saved/Collections/' took 0.01s
+[2019.03.15-18.47.26:381][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal games/SpilProjekt3/Game/Content/Developers/Terpinator/Collections/' took 0.01s
+[2019.03.15-18.47.26:381][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal games/SpilProjekt3/Game/Content/Collections/' took 0.00s
+[2019.03.15-18.47.26:381][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.15-18.47.26:390][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2651 classes and 620 folders.
+[2019.03.15-18.47.26:552][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.15-18.47.26:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:747][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:778][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:806][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:827][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:839][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:850][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:862][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:873][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:902][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:931][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:942][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:973][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.26:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:261][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-18.47.27:777][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.15-18.47.27:835][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.15-18.47.31:618][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Game
+[2019.03.15-18.47.31:618][  0]LogTemp: CWD: D:\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.15-18.47.31:618][  0]LogTemp: Initial Dir: D:\UE_4.21
+[2019.03.15-18.47.31:618][  0]LogTemp: Env CWD: D:\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.03.15-18.47.31:618][  0]LogTemp: BranchPath = DESKTOP-GECV2M9/D/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-GECV2M9/D/UE_4.21/Engine/Binaries
+[2019.03.15-18.47.31:618][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Teepinator\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.03.15-18.47.31:618][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.15-18.47.31:751][  0]LogSlate: Took 0.034601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.15-18.47.31:818][  0]LogSlate: Took 0.012621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.15-18.47.32:400][  0]LogRenderer: Reallocating scene render targets to support 1280x624 Format 9 NumSamples 1 (Frame:1).
+[2019.03.15-18.47.33:153][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.15-18.47.33:153][  0]LogLoad: (Engine Initialization) Total time: 103.77 seconds
+[2019.03.15-18.47.33:153][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.15-18.47.33:936][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.03.15-18.47.34:178][  0]LogSlate: Took 0.016948 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-18.47.34:801][  2]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-18.47.34:839][  3]LogAssetRegistry: Asset discovery search completed in 79.0637 seconds
+[2019.03.15-18.47.34:876][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.15-18.47.34:876][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.017082 seconds (updated 0 objects)
+[2019.03.15-18.47.37:293][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.47.37:401][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R'
+[2019.03.15-18.47.37:401][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:402][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R
+[2019.03.15-18.47.37:402][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.03.15-18.47.37:402][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:410][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R'
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:410][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N'
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:410][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha'
+[2019.03.15-18.47.37:410][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:411][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:411][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R'
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:411][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N'
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:411][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R'
+[2019.03.15-18.47.37:411][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:411][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:412][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R'
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:412][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:412][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R'
+[2019.03.15-18.47.37:412][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:412][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N'
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:413][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R'
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:413][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N'
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:413][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R'
+[2019.03.15-18.47.37:413][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:413][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:414][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R'
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:414][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N'
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:414][277]LoadErrors: Error: /Game/Materials/TerrianMat : Can't find file for asset. /Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R'
+[2019.03.15-18.47.37:414][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R'
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N'
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha'
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:415][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.03.15-18.47.37:416][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R'
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N'
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R'
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N'
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:417][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R'
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R'
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N'
+[2019.03.15-18.47.37:418][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N' while loading ../../../../Unreal games/SpilProjekt3/Game/Content/Materials/TerrianMat.uasset.
+[2019.03.15-18.47.37:436][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R'
+[2019.03.15-18.47.37:450][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R.T_GDC_StonePath_Tile_D_R Referenced by MaterialExpressionTextureSample_1
+[2019.03.15-18.47.37:450][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_D_R' while loading NULL.
+[2019.03.15-18.47.37:450][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R'
+[2019.03.15-18.47.37:450][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R.T_LavaFlow002_D_R Referenced by MaterialExpressionTextureSample_10
+[2019.03.15-18.47.37:450][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_LavaFlow002_D_R' while loading NULL.
+[2019.03.15-18.47.37:450][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R'
+[2019.03.15-18.47.37:450][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R.T_GDC_Tiling_LeafPath_D_R Referenced by MaterialExpressionTextureSample_11
+[2019.03.15-18.47.37:450][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_D_R' while loading NULL.
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R'
+[2019.03.15-18.47.37:451][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R.T_Tile_PebblyRiverbank_D_R Referenced by MaterialExpressionTextureSample_12
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_D_R' while loading NULL.
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R'
+[2019.03.15-18.47.37:451][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R.T_RiverPebbles_001_D_R Referenced by MaterialExpressionTextureSample_13
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_RiverPebbles_001_D_R' while loading NULL.
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R'
+[2019.03.15-18.47.37:451][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R.T_GDC_RockFace003_D_R Referenced by MaterialExpressionTextureSample_14
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_D_R' while loading NULL.
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N'
+[2019.03.15-18.47.37:451][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N.T_AlpinePatch001_N Referenced by MaterialExpressionTextureSample_15
+[2019.03.15-18.47.37:451][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_N' while loading NULL.
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N'
+[2019.03.15-18.47.37:452][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N.T_gravelTile_01A_N Referenced by MaterialExpressionTextureSample_16
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_N' while loading NULL.
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N'
+[2019.03.15-18.47.37:452][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N.T_Tiling_LavaFlow002_N Referenced by MaterialExpressionTextureSample_17
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LavaFlow002/T_Tiling_LavaFlow002_N' while loading NULL.
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N'
+[2019.03.15-18.47.37:452][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N.T_GDC_Tiling_LeafPath_N Referenced by MaterialExpressionTextureSample_18
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/LeafyPath/T_GDC_Tiling_LeafPath_N' while loading NULL.
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N'
+[2019.03.15-18.47.37:452][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N.T_Tile_PebblyRiverbank_N Referenced by MaterialExpressionTextureSample_19
+[2019.03.15-18.47.37:452][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/PebblyRiverbank/T_Tile_PebblyRiverbank_N' while loading NULL.
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha'
+[2019.03.15-18.47.37:453][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha.T_GDC_Grass01_D_NoisyAlpha Referenced by MaterialExpressionTextureSample_2
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_GDC_Grass01_D_NoisyAlpha' while loading NULL.
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N'
+[2019.03.15-18.47.37:453][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N.T_Tile_RiverPebbles_N Referenced by MaterialExpressionTextureSample_20
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RiverPebbles/T_Tile_RiverPebbles_N' while loading NULL.
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N'
+[2019.03.15-18.47.37:453][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N.T_GDC_RockFace003_N Referenced by MaterialExpressionTextureSample_21
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockFace003/T_GDC_RockFace003_N' while loading NULL.
+[2019.03.15-18.47.37:453][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R'
+[2019.03.15-18.47.37:453][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R.T_Forest_Path_001B_D_R Referenced by MaterialExpressionTextureSample_3
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_D_R' while loading NULL.
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N'
+[2019.03.15-18.47.37:454][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N.T_GDC_StonePath_Tile_N Referenced by MaterialExpressionTextureSample_5
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/RockyPath/T_GDC_StonePath_Tile_N' while loading NULL.
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N'
+[2019.03.15-18.47.37:454][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N.T_Forest_Path_001B_N Referenced by MaterialExpressionTextureSample_6
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/ForestPath_001/T_Forest_Path_001B_N' while loading NULL.
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N'
+[2019.03.15-18.47.37:454][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N.T_Ground_Grass_N Referenced by MaterialExpressionTextureSample_7
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/Grass/T_Ground_Grass_N' while loading NULL.
+[2019.03.15-18.47.37:454][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R'
+[2019.03.15-18.47.37:455][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R.T_AlpinePatch001_D_alt_R Referenced by MaterialExpressionTextureSample_8
+[2019.03.15-18.47.37:455][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/AlpinePatch001/T_AlpinePatch001_D_alt_R' while loading NULL.
+[2019.03.15-18.47.37:455][277]LogLinker: Warning: Can't find file '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R'
+[2019.03.15-18.47.37:455][277]LoadErrors: Failed to load /Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R.T_gravelTile_01A_D_R Referenced by MaterialExpressionTextureSample_9
+[2019.03.15-18.47.37:455][277]LogLinker: Warning: Can't find file for asset '/Game/KiteDemo/Environments/GroundTiles/GravelTile_01/T_gravelTile_01A_D_R' while loading NULL.
+[2019.03.15-18.47.37:473][277]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-18.47.37:505][277]LogMaterial: Warning: D:\Unreal games\SpilProjekt3\Game\Content\Materials\TerrianMat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-18.47.37:505][277]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.15-18.47.37:541][277]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/TerrianMat.TerrianMat
+[2019.03.15-18.47.37:574][277]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-18.47.37:575][277]LogMaterial: Warning: /Engine/Transient.TerrianMat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-18.47.37:575][277]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.15-18.47.38:674][277]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-18.47.38:674][277]LogMaterial: Warning: /Engine/Transient.TerrianMat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-18.47.38:674][277]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.15-18.47.38:679][277]LogMaterial: Display: Missing cached shader map for material TerrianMat, compiling. 
+[2019.03.15-18.47.38:680][277]LogMaterial: Warning: /Engine/Transient.TerrianMat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-18.47.38:680][277]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.15-18.47.38:719][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2019.03.15-18.47.38:724][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.03.15-18.47.38:725][277]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-18.47.38:725][277]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-18.47.38:725][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.03.15-18.47.38:727][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.03.15-18.47.38:728][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2019.03.15-18.47.38:733][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2019.03.15-18.47.38:735][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2019.03.15-18.47.38:737][277]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-18.47.38:737][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2019.03.15-18.47.38:739][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2019.03.15-18.47.38:741][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2019.03.15-18.47.38:743][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2019.03.15-18.47.38:745][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2019.03.15-18.47.38:747][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2019.03.15-18.47.38:749][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2019.03.15-18.47.38:751][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2019.03.15-18.47.38:753][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2019.03.15-18.47.38:755][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2019.03.15-18.47.38:757][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2019.03.15-18.47.38:759][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2019.03.15-18.47.38:761][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2019.03.15-18.47.38:763][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2019.03.15-18.47.38:765][277]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2019.03.15-18.47.38:835][277]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2019.03.15-18.47.38:920][277]LogSlate: Took 0.015585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.15-18.47.39:274][278]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-18.47.41:131][486]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-18.47.41:132][486]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-18.47.50:794][615]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.15-18.47.51:362][615]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.03.15-18.47.53:088][616]LogSlate: Took 0.009176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.15-18.48.41:412][111]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-18.48.41:451][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.48.41:476][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.48.41:514][111]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 20.48.41)
+[2019.03.15-18.48.41:589][111]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-18.48.41:661][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071767s)
+[2019.03.15-18.48.41:662][111]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-18.48.41:674][111]LogPlayLevel: PIE: World Init took: (0.013114s)
+[2019.03.15-18.48.41:674][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.085210s)
+[2019.03.15-18.48.41:759][111]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-18.48.41:783][111]LogInit: FAudioDevice initialized.
+[2019.03.15-18.48.41:796][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.48.41:877][111]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-18.48.41:996][111]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-19.48.41
+[2019.03.15-18.48.42:013][111]LogWorld: Bringing up level for play took: 0.037110
+[2019.03.15-18.48.42:181][111]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.03.15-18.48.42:214][111]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1,157
+[2019.03.15-18.48.42:215][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.48.42:365][111]LogRenderer: Reallocating scene render targets to support 1292x756 Format 9 NumSamples 1 (Frame:1).
+[2019.03.15-18.48.56:070][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.48.56:098][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.48.56:128][693]LogSlate: Window 'Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-18.48.56:360][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-18.48.56:361][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.48.56:701][694]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.15-18.50.01:340][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.50.20:436][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.50.20:536][149]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.15-18.50.40:007][345]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.15-18.51.23:114][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.51.28:569][690]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2019.03.15-18.51.31:979][  5]LogRenderer: Reallocating scene render targets to support 1432x932 Format 9 NumSamples 1 (Frame:308).
+[2019.03.15-18.51.35:199][302]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes/ColorCalibrator: 'D:/UE_4.21/Engine/Content/EditorMeshes/ColorCalibrator' is outside repository
+[2019.03.15-18.51.37:456][551]SourceControl: fatal: D:/UE_4.21/Engine/Content/TemplateResources: 'D:/UE_4.21/Engine/Content/TemplateResources' is outside repository
+[2019.03.15-18.51.37:456][551]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset: 'D:/UE_4.21/Engine/Content/EditorLandscapeResources/MirrorPlaneMaterial.uasset' is outside repository
+[2019.03.15-18.51.37:456][551]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset: 'D:/UE_4.21/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset' is outside repository
+[2019.03.15-18.51.37:456][551]SourceControl: fatal: D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/testDynamicbranch.uasset: 'D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/testDynamicbranch.uasset' is outside repository
+[2019.03.15-18.51.42:792][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.51.42:859][179]LogSlate: Window 'SM_Chair' being destroyed
+[2019.03.15-18.52.00:553][232]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.15-18.52.01:859][351]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-18.52.01:889][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.52.01:889][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.52.01:889][351]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 20.52.01)
+[2019.03.15-18.52.01:897][351]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-18.52.01:908][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010241s)
+[2019.03.15-18.52.01:908][351]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-18.52.01:908][351]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2019.03.15-18.52.01:908][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010988s)
+[2019.03.15-18.52.02:002][351]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-18.52.02:026][351]LogInit: FAudioDevice initialized.
+[2019.03.15-18.52.02:031][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.52.02:058][351]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-18.52.02:059][351]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-19.52.02
+[2019.03.15-18.52.02:091][351]LogWorld: Bringing up level for play took: 0.032254
+[2019.03.15-18.52.02:104][351]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1,048
+[2019.03.15-18.52.02:115][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.52.06:837][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.52.06:837][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-18.52.06:856][895]LogSlate: Window 'Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.15-18.52.06:900][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-18.52.06:900][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-18.52.07:016][896]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.15-18.56.26:010][616]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.15-18.56.26:973][650]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonCharacterF4B6E20E4E0A434BEA08878BCAAD519B.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.15-18.56.39:439][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-18.57.53:259][622]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonExampleMap_Auto1BF39E07D45C558C6B42D3EBBC2A1463D.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.03.15-18.57.53:263][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.297
+[2019.03.15-18.57.53:264][622]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.297
+[2019.03.15-18.57.53:265][622]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.03.15-18.57.53:265][622]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.03.15-18.57.53:336][622]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonCharacter_Auto1F1EF7CCA41F0B3C27CC5BDBED8137672.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2019.03.15-18.57.53:337][622]LogFileHelpers: Auto-saving content packages took 0.073
+[2019.03.15-19.03.34:026][110]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.34:033][110]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.34:035][110]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.34:036][110]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.34:054][110]LogAssetEditorManager: Opening Asset editor for Material /Game/Outline/Materials/PP_Outliner_M.PP_Outliner_M
+[2019.03.15-19.03.34:058][110]LogMaterial: Display: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2019.03.15-19.03.34:152][110]LogMaterial: Display: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2019.03.15-19.03.34:159][110]LogMaterial: Display: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2019.03.15-19.03.34:172][110]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-19.03.34:172][110]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-19.03.34:172][110]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.03.34:196][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2019.03.15-19.03.34:201][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2019.03.15-19.03.34:206][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2019.03.15-19.03.34:210][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2019.03.15-19.03.34:215][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2019.03.15-19.03.34:220][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2019.03.15-19.03.34:225][110]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2019.03.15-19.03.34:840][161]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-19.03.35:486][227]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-19.03.35:606][240]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-19.03.35:658][242]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-19.03.35:841][262]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.15-19.03.36:192][299]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.15-19.03.36:606][332]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-19.03.36:751][344]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-19.03.36:797][348]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-19.03.36:976][361]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2019.03.15-19.03.36:976][361]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.15-19.03.36:976][361]MaterialEditorStats: Texture samplers: 2/16
+[2019.03.15-19.03.36:976][361]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(19)
+[2019.03.15-19.03.36:976][361]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.15-19.03.37:331][390]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-19.03.37:342][391]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-19.03.37:687][424]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.15-19.03.37:999][452]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.15-19.03.38:343][482]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.03.38:643][510]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-19.03.38:783][524]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-19.03.38:793][525]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.15-19.03.39:158][561]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.15-19.03.40:881][720]LogSlate: Window 'PP_Outliner_M' being destroyed
+[2019.03.15-19.03.41:982][838]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.41:983][838]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Materials/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.41:999][838]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Outline/Materials/PP_Outliner_Inst.PP_Outliner_Inst
+[2019.03.15-19.03.44:901][143]LogSlate: Window 'PP_Outliner_Inst' being destroyed
+[2019.03.15-19.03.48:469][567]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/MF_SampleSceneTextureNeighbourUVs.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.03.48:478][567]LogAssetEditorManager: Opening Asset editor for MaterialFunction /Game/Outline/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs
+[2019.03.15-19.03.48:552][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:557][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:561][567]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.03.48:562][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:566][567]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-19.03.48:566][567]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-19.03.48:568][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:573][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:579][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:584][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:590][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:596][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:602][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:607][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:613][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:618][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:625][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:630][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:636][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:641][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:648][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:653][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:660][567]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2019.03.15-19.03.48:665][567]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.15-19.03.48:699][567]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_20, compiling. 
+[2019.03.15-19.03.48:743][567]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.15-19.03.48:745][567]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.03.15-19.03.48:748][567]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.15-19.03.48:925][579]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.15-19.03.48:988][586]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.15-19.03.49:330][625]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.15-19.04.16:453][193]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/MF_ExtractDepth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.04.16:460][193]LogAssetEditorManager: Opening Asset editor for MaterialFunction /Game/Outline/Materials/MF_ExtractDepth.MF_ExtractDepth
+[2019.03.15-19.04.16:527][193]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.03.15-19.04.16:533][193]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.03.15-19.04.16:533][193]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.04.16:533][193]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.16:535][193]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.03.15-19.04.16:541][193]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2019.03.15-19.04.16:541][193]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.04.16:541][193]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.16:543][193]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.03.15-19.04.16:555][193]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.04.16:579][193]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2019.03.15-19.04.16:581][193]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2019.03.15-19.04.16:632][193]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2019.03.15-19.04.16:632][193]LogMaterial: Warning: /Engine/Transient.Material_3 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.04.16:632][193]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.16:634][193]MaterialEditorStats: Error: [SM5] SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.20:864][646]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-19.04.20:866][646]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-19.04.25:692][203]LogSlate: Window 'MF_ExtractDepth' being destroyed
+[2019.03.15-19.04.26:675][308]LogLinker: Warning: Asset '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/MF_ConvolveTexture.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.03.15-19.04.26:682][308]LogAssetEditorManager: Opening Asset editor for MaterialFunction /Game/Outline/Materials/MF_ConvolveTexture.MF_ConvolveTexture
+[2019.03.15-19.04.26:748][308]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2019.03.15-19.04.26:754][308]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.03.15-19.04.26:757][308]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.04.26:759][308]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2019.03.15-19.04.26:762][308]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.15-19.04.26:762][308]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.15-19.04.26:765][308]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2019.03.15-19.04.26:771][308]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2019.03.15-19.04.26:806][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2019.03.15-19.04.26:810][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_2, compiling. 
+[2019.03.15-19.04.26:815][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_3, compiling. 
+[2019.03.15-19.04.26:819][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2019.03.15-19.04.26:824][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.03.15-19.04.26:828][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.03.15-19.04.26:833][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2019.03.15-19.04.26:837][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_31, compiling. 
+[2019.03.15-19.04.26:842][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_32, compiling. 
+[2019.03.15-19.04.26:847][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_33, compiling. 
+[2019.03.15-19.04.26:851][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_40, compiling. 
+[2019.03.15-19.04.26:856][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_41, compiling. 
+[2019.03.15-19.04.26:860][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_42, compiling. 
+[2019.03.15-19.04.26:865][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_43, compiling. 
+[2019.03.15-19.04.26:870][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_44, compiling. 
+[2019.03.15-19.04.26:874][308]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_45, compiling. 
+[2019.03.15-19.04.26:912][308]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2019.03.15-19.04.27:780][386]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.03.15-19.04.27:976][407]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.03.15-19.04.28:083][419]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.03.15-19.04.28:230][427]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.15-19.04.28:590][463]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.03.15-19.04.28:598][464]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.15-19.04.28:691][475]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.15-19.04.28:820][489]LogSlate: Window 'MF_ConvolveTexture' being destroyed
+[2019.03.15-19.04.28:895][498]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.15-19.04.28:942][503]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.15-19.04.29:097][521]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.15-19.04.29:203][533]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.15-19.04.29:386][554]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.15-19.04.29:394][555]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.15-19.04.30:006][622]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.15-19.04.30:130][635]LogAssetEditorManager: Opening Asset editor for MaterialFunction /Game/Outline/Materials/MF_ExtractDepth.MF_ExtractDepth
+[2019.03.15-19.04.30:190][635]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-19.04.30:192][635]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2019.03.15-19.04.30:198][635]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2019.03.15-19.04.30:198][635]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_3 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.04.30:198][635]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.30:201][635]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2019.03.15-19.04.30:207][635]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2019.03.15-19.04.30:207][635]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_3 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.04.30:207][635]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.30:209][635]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2019.03.15-19.04.30:221][635]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.15-19.04.30:245][635]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2019.03.15-19.04.30:247][635]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2019.03.15-19.04.30:282][635]MaterialEditorStats: Error: [SM5] SceneTexture expressions cannot be used in opaque materials
+[2019.03.15-19.04.30:309][635]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.15-19.04.30:575][663]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.15-19.04.30:584][664]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.15-19.04.30:810][690]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.15-19.04.30:945][706]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.15-19.04.31:056][719]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.15-19.04.31:187][734]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.15-19.04.31:412][760]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.15-19.04.31:449][764]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.15-19.04.31:629][785]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.15-19.04.31:761][800]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.15-19.04.31:948][822]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.15-19.04.32:029][831]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.15-19.04.32:182][849]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.15-19.04.32:229][854]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.15-19.04.32:338][866]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-19.04.32:340][866]LogSlate: Window 'Stats' being destroyed
+[2019.03.15-19.04.32:523][887]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.15-19.04.32:578][893]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.15-19.04.32:776][916]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.15-19.04.32:843][924]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.15-19.04.33:017][944]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.15-19.04.33:077][951]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.15-19.04.33:239][970]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/UE_4.21/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorLandscapeResources: 'D:/UE_4.21/Engine/Content/EditorLandscapeResources' is outside repository
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/UE_4.21/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'D:/UE_4.21/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository
+[2019.03.15-19.06.10:553][218]SourceControl: fatal: D:/UE_4.21/Engine/Content/VREditor/UI/ArrowMaterial.uasset: 'D:/UE_4.21/Engine/Content/VREditor/UI/ArrowMaterial.uasset' is outside repository
+[2019.03.15-19.06.13:238][497]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonExampleMap280BE9DB4F5174FA4C7B42921056676A.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.03.15-19.06.13:518][497]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonExampleMap_BuiltDataB61EA8CA49B1A6EACF938C857157FF76.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.03.15-19.06.14:228][579]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Outline/Materials/PP_Outliner_Inst.PP_Outliner_Inst
+[2019.03.15-19.06.24:996][845]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.15-19.07.09:244][369]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-19.07.09:274][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.07.09:274][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-19.07.09:274][369]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 21.07.09)
+[2019.03.15-19.07.09:275][369]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-19.07.09:288][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013429s)
+[2019.03.15-19.07.09:289][369]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-19.07.09:289][369]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.03.15-19.07.09:289][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014243s)
+[2019.03.15-19.07.09:351][369]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-19.07.09:375][369]LogInit: FAudioDevice initialized.
+[2019.03.15-19.07.09:405][369]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-19.07.09:407][369]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-20.07.09
+[2019.03.15-19.07.09:407][369]LogWorld: Bringing up level for play took: 0.001409
+[2019.03.15-19.07.09:419][369]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,362
+[2019.03.15-19.07.09:419][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.07.18:189][419]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0798
+[2019.03.15-19.07.18:189][419]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  SetActorLocationAndRotation
+[2019.03.15-19.07.33:637][269]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0798
+[2019.03.15-19.07.33:637][269]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  SetActorLocationAndRotation
+[2019.03.15-19.07.56:902][ 56]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0798
+[2019.03.15-19.07.56:903][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  SetActorLocationAndRotation
+[2019.03.15-19.08.34:911][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.08.34:911][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.08.34:945][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-19.08.34:946][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.08.34:974][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.08.34:980][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-19.08.35:035][615]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.15-19.08.41:011][192]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-19.08.41:014][192]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-19.08.43:879][534]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.15-19.08.44:469][553]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonCharacter6B08743443BBB7A9D74990948EC0791A.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.15-19.08.57:734][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.00:015][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.01:248][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.01:332][471]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-19.09.01:362][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.01:362][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-19.09.01:362][471]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 21.09.01)
+[2019.03.15-19.09.01:362][471]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-19.09.01:373][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011124s)
+[2019.03.15-19.09.01:374][471]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-19.09.01:374][471]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2019.03.15-19.09.01:374][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011853s)
+[2019.03.15-19.09.01:433][471]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-19.09.01:457][471]LogInit: FAudioDevice initialized.
+[2019.03.15-19.09.01:490][471]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-19.09.01:491][471]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-20.09.01
+[2019.03.15-19.09.01:492][471]LogWorld: Bringing up level for play took: 0.001482
+[2019.03.15-19.09.01:504][471]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,447
+[2019.03.15-19.09.01:504][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.09:023][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.09:023][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.09.09:060][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-19.09.09:060][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.09:088][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.09.09:126][373]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.15-19.09.09:854][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.10:037][475]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUpItems/dør.dør
+[2019.03.15-19.09.11:692][635]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUpItems/dør.dør
+[2019.03.15-19.09.15:391][992]SourceControl: fatal: D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2019.03.15-19.09.15:391][992]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes: 'D:/UE_4.21/Engine/Content/EditorMeshes' is outside repository
+[2019.03.15-19.09.15:391][992]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2019.03.15-19.09.15:391][992]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'D:/UE_4.21/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2019.03.15-19.09.21:525][659]BlueprintLog: New page: Compile dør
+[2019.03.15-19.09.28:521][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.30:684][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.15-19.09.33:203][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.34:422][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.34:489][146]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-19.09.34:507][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.34:507][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-19.09.34:507][146]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 21.09.34)
+[2019.03.15-19.09.34:507][146]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-19.09.34:517][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009907s)
+[2019.03.15-19.09.34:517][146]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-19.09.34:517][146]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2019.03.15-19.09.34:518][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010525s)
+[2019.03.15-19.09.34:571][146]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-19.09.34:594][146]LogInit: FAudioDevice initialized.
+[2019.03.15-19.09.34:628][146]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-19.09.34:629][146]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-20.09.34
+[2019.03.15-19.09.34:630][146]LogWorld: Bringing up level for play took: 0.001439
+[2019.03.15-19.09.34:641][146]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,416
+[2019.03.15-19.09.34:641][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.43:352][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.43:352][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.09.43:390][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-19.09.43:390][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.09.43:420][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.09.43:453][192]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.15-19.09.44:322][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.15-19.09.45:412][423]LogEditorViewport: Clicking on Actor (LMB): dør_C (dør)
+[2019.03.15-19.09.46:661][569]Cmd: DELETE
+[2019.03.15-19.09.46:661][569]Cmd: ACTOR DELETE
+[2019.03.15-19.09.46:852][569]LogEditorActor: Deleted Actor: dør_C
+[2019.03.15-19.09.46:888][569]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2019.03.15-19.09.47:847][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.09.55:253][408]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.15-19.09.55:603][408]TextureStreamingBuild: Display: Compiling optional shaders took 0.010 seconds.
+[2019.03.15-19.09.55:697][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-19.09.56:858][408]SourceControl: Error: Updated 0 paths from the index
+[2019.03.15-19.09.56:952][408]SourceControl: rm 'Game/Content/PickUpItems/dør.uasset'
+[2019.03.15-19.10.10:419][ 22]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUpItems/MasterClass.MasterClass
+[2019.03.15-19.10.19:742][ 65]BlueprintLog: New page: Compile MasterClass
+[2019.03.15-19.10.20:292][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickUpItems/MasterClass" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/MasterClass.uasset" SILENT=true
+[2019.03.15-19.10.20:310][102]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/MasterClassB5F0408B48A6F5AC7ECC72960F8EF9DE.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/MasterClass.uasset'
+[2019.03.15-19.10.21:831][278]LogSlate: Window 'MasterClass' being destroyed
+[2019.03.15-19.10.23:205][442]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUpItems/Chair.Chair
+[2019.03.15-19.10.33:759][668]BlueprintLog: New page: Compile MasterClass
+[2019.03.15-19.10.34:283][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickUpItems/MasterClass" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/MasterClass.uasset" SILENT=true
+[2019.03.15-19.10.34:296][702]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/MasterClass802FE0CA4897D3F6459F598B1664EC36.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/MasterClass.uasset'
+[2019.03.15-19.10.41:079][493]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PickUpItems/Dør.Dør
+[2019.03.15-19.10.45:722][999]SourceControl: fatal: D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'D:/UE_4.21/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2019.03.15-19.10.45:722][999]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes: 'D:/UE_4.21/Engine/Content/EditorMeshes' is outside repository
+[2019.03.15-19.10.45:722][999]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2019.03.15-19.10.45:722][999]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'D:/UE_4.21/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2019.03.15-19.10.48:807][365]BlueprintLog: New page: Compile Dør
+[2019.03.15-19.10.49:370][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickUpItems/Dør" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Dør.uasset" SILENT=true
+[2019.03.15-19.10.49:384][406]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/Dør99E0F1AA4081142333036BAE723E463F.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Dør.uasset'
+[2019.03.15-19.10.52:837][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.10.52:904][780]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-19.10.52:927][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.10.52:928][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-19.10.52:928][780]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 21.10.52)
+[2019.03.15-19.10.52:928][780]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-19.10.52:939][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010967s)
+[2019.03.15-19.10.52:939][780]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-19.10.52:940][780]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2019.03.15-19.10.52:940][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011932s)
+[2019.03.15-19.10.52:997][780]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-19.10.53:021][780]LogInit: FAudioDevice initialized.
+[2019.03.15-19.10.53:048][780]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-19.10.53:049][780]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-20.10.53
+[2019.03.15-19.10.53:050][780]LogWorld: Bringing up level for play took: 0.001371
+[2019.03.15-19.10.53:062][780]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,005
+[2019.03.15-19.10.53:062][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.10.58:232][395]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:0798
+[2019.03.15-19.10.58:232][395]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsMaster_Class1". Blueprint:  ThirdPersonCharacter Function:  Execute Ubergraph Third Person Character Graph:  EventGraph Node:  SetActorLocationAndRotation
+[2019.03.15-19.11.30:912][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.11.30:912][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.11.30:946][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.15-19.11.30:946][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.11.30:975][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-19.11.30:982][315]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-19.11.31:014][317]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.15-19.11.33:773][646]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-19.11.33:776][646]LogSlate: Window 'Message Log' being destroyed
+[2019.03.15-19.11.40:990][505]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.15-19.12.27:907][922]SourceControl: fatal: D:/UE_4.21/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset: 'D:/UE_4.21/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset' is outside repository
+[2019.03.15-19.12.27:907][922]SourceControl: fatal: D:/UE_4.21/Engine/Content/VREditor/TransformGizmo: 'D:/UE_4.21/Engine/Content/VREditor/TransformGizmo' is outside repository
+[2019.03.15-19.12.29:879][138]SourceControl: fatal: D:/UE_4.21/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset: 'D:/UE_4.21/Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset' is outside repository
+[2019.03.15-19.12.30:593][221]SourceControl: fatal: D:/UE_4.21/Engine/Content/BasicShapes/Cube1.uasset: 'D:/UE_4.21/Engine/Content/BasicShapes/Cube1.uasset' is outside repository
+[2019.03.15-19.12.30:593][221]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes/EditorCube.uasset: 'D:/UE_4.21/Engine/Content/EditorMeshes/EditorCube.uasset' is outside repository
+[2019.03.15-19.12.30:593][221]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMeshes/ParticleCube.uasset: 'D:/UE_4.21/Engine/Content/EngineMeshes/ParticleCube.uasset' is outside repository
+[2019.03.15-19.12.31:214][293]SourceControl: fatal: D:/UE_4.21/Engine/Content/EngineMeshes/Cube.uasset: 'D:/UE_4.21/Engine/Content/EngineMeshes/Cube.uasset' is outside repository
+[2019.03.15-19.12.31:223][294]SourceControl: fatal: D:/UE_4.21/Engine/Content/BasicShapes/Cube.uasset: 'D:/UE_4.21/Engine/Content/BasicShapes/Cube.uasset' is outside repository
+[2019.03.15-19.12.31:247][297]SourceControl: fatal: D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'D:/UE_4.21/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2019.03.15-19.12.32:949][498]BlueprintLog: New page: Compile Dør
+[2019.03.15-19.12.36:615][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-19.12.36:681][920]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.15-19.12.36:700][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.12.36:700][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-19.12.36:700][920]PIE: New page: PIE session: ThirdPersonExampleMap (15/03/2019 21.12.36)
+[2019.03.15-19.12.36:700][920]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.15-19.12.36:709][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008943s)
+[2019.03.15-19.12.36:710][920]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-19.12.36:710][920]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2019.03.15-19.12.36:710][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009611s)
+[2019.03.15-19.12.36:764][920]LogInit: XAudio2 using 'Speakers / Headphones (5- Plantronics HD1)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.15-19.12.36:788][920]LogInit: FAudioDevice initialized.
+[2019.03.15-19.12.36:821][920]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.15-19.12.36:823][920]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.03.15-20.12.36
+[2019.03.15-19.12.36:823][920]LogWorld: Bringing up level for play took: 0.001518
+[2019.03.15-19.12.36:836][920]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,221
+[2019.03.15-19.12.36:836][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.15-19.12.56:928][766]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.15-19.13.05:231][ 20]LogSlate: Window 'Save Content' being destroyed
+[2019.03.15-19.13.05:414][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Outline/Materials/PP_Outliner_Inst" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/PP_Outliner_Inst.uasset" SILENT=true
+[2019.03.15-19.13.05:440][ 20]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/PP_Outliner_Inst8B52ADBF43485CED199558AD6868883D.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/Outline/Materials/PP_Outliner_Inst.uasset'
+[2019.03.15-19.13.05:442][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickUpItems/Chair" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Chair.uasset" SILENT=true
+[2019.03.15-19.13.05:467][ 20]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/Chair71C5545740223038E3410A93FA3C5686.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Chair.uasset'
+[2019.03.15-19.13.05:469][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PickUpItems/Dør" FILE="../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Dør.uasset" SILENT=true
+[2019.03.15-19.13.05:489][ 20]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/Dør27DF567E4A8E0E22F8FA8D8CA53FE631.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/PickUpItems/Dør.uasset'
+[2019.03.15-19.13.05:575][ 20]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonCharacterC916367544C036D2F85125AF6B7E67F7.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.15-19.13.05:781][ 20]LogSavePackage: Moving '../../../../Unreal games/SpilProjekt3/Game/Saved/ThirdPersonExampleMapFCDCB845444EE2B3F04D2AB40D53A8E1.tmp' to '../../../../Unreal games/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.03.15-19.13.05:813][ 20]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.235
