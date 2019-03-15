@@ -1,4 +1,4 @@
-﻿Log file open, 03/15/19 08:34:59
+﻿Log file open, 03/15/19 13:23:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Game
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.306557
+LogStats: Stats thread started at 0.197348
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.178s to configure plugins.
+LogStreaming: Display: Took  0.144s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,405 +154,432 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.03.15-07.35.00:237][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.03.15-07.35.00:237][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:238][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:248][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.03.15-07.35.00:248][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.03.15-07.35.00:249][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.03.15-07.35.00:251][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-07.35.00:251][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.15-07.35.00:283][  0]LogHAL: Display: Platform has ~ 16 GB [17057013760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.03.15-07.35.00:284][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.15-07.35.00:284][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.03.15-07.35.00:284][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2019.03.15-07.35.00:285][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.03.15-07.35.00:293][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.03.15-07.35.00:293][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
-[2019.03.15-07.35.00:295][  0]LogInit: Computer: DESKTOP-FDNF9FS
-[2019.03.15-07.35.00:295][  0]LogInit: User: Frederik
-[2019.03.15-07.35.00:295][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.03.15-07.35.00:296][  0]LogInit: High frequency timer resolution =2.437500 MHz
-[2019.03.15-07.35.00:297][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.15-07.35.00:297][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.15-07.35.00:297][  0]LogMemory: Process Physical Memory: 102.53 MB used, 102.53 MB peak
-[2019.03.15-07.35.00:297][  0]LogMemory: Process Virtual Memory: 84.76 MB used, 84.76 MB peak
-[2019.03.15-07.35.00:297][  0]LogMemory: Physical Memory: 7856.07 MB used,  8410.77 MB free, 16266.84 MB total
-[2019.03.15-07.35.00:297][  0]LogMemory: Virtual Memory: 4628.92 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.03.15-07.35.00:623][  0]LogInit: Using OS detected language (da-DK).
-[2019.03.15-07.35.00:623][  0]LogInit: Using OS detected locale (da-DK).
-[2019.03.15-07.35.00:626][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
-[2019.03.15-07.35.01:442][  0]LogStreaming: Display: Took  0.818s to InitEngineTextLocalization.
-[2019.03.15-07.35.01:598][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.15-07.35.01:598][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.15-07.35.05:342][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-07.35.05:342][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.15-07.35.05:365][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2019.03.15-07.35.05:365][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2019.03.15-07.35.05:460][  0]LogD3D11RHI:    1. 'AMD Radeon (TM) R7 M360' (Feature Level 11_0)
-[2019.03.15-07.35.05:460][  0]LogD3D11RHI:       2039/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2019.03.15-07.35.05:465][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.15-07.35.05:465][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.15-07.35.05:465][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2019.03.15-07.35.05:492][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.15-07.35.05:492][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.15-07.35.05:492][  0]LogWindows: EnumDisplayDevices:
-[2019.03.15-07.35.05:492][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2019.03.15-07.35.05:493][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-07.35.05:493][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2019.03.15-07.35.05:493][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.03.15-07.35.05:493][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R7 M360
-[2019.03.15-07.35.05:493][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.03.15-07.35.05:493][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.03.15-07.35.05:494][  0]LogRHI: Texture pool is 1427 MB (70% of 2039 MB)
-[2019.03.15-07.35.05:548][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.15-07.35.05:588][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.03.15-07.35.06:369][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.15-07.35.06:396][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.15-07.35.06:418][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.15-07.35.06:441][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.15-07.35.06:470][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.15-07.35.06:491][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.15-07.35.06:511][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.15-07.35.06:534][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.15-07.35.06:552][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:666][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.15-07.35.06:673][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.15-07.35.06:765][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-07.35.06:765][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.15-07.35.06:798][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-07.35.06:798][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.15-07.35.06:818][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.15-07.35.06:837][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.15-07.35.06:857][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.15-07.35.06:894][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.15-07.35.06:986][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-07.35.06:986][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.15-07.35.06:986][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.15-07.35.07:242][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/14920/).
-[2019.03.15-07.35.07:242][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik/AppData/Local/Temp/UnrealShaderWorkingDir/5C65967043B8DF6EEFEFA786EC85BFE7/'.
-[2019.03.15-07.35.07:248][  0]LogXGEController: Cleaning working directory: C:/Users/Frederik/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.03.15-07.35.07:249][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.15-07.35.07:249][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.15-07.35.07:249][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.15-07.35.09:938][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.15-07.35.10:460][  0]LogDerivedDataCache: Loaded boot cache 0.52s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-07.35.10:460][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.03.15-07.35.10:460][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.15-07.35.10:460][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.15-07.35.10:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-07.35.10:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.15-07.35.10:499][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.15-07.35.10:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.15-07.35.10:499][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.03.15-07.35.10:512][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.15-07.35.10:512][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.15-07.35.10:512][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.15-07.35.10:553][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.15-07.35.10:564][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.15-07.35.10:585][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.15-07.35.11:178][  0]LogAssetRegistry: FAssetRegistry took 0.0414 seconds to start up
-[2019.03.15-07.35.11:889][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.15-07.35.12:419][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.15-07.35.12:452][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.15-07.35.12:453][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.15-07.35.12:454][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.15-07.35.12:454][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.15-07.35.12:555][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
-[2019.03.15-07.35.14:599][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.098654 seconds
-[2019.03.15-07.35.14:609][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.03.15-07.35.14:609][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.03.15-07.35.14:609][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.15-07.35.21:262][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.15-07.35.21:284][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.15-07.35.22:529][  0]SourceControl: Source control is disabled
-[2019.03.15-07.35.23:985][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.15-07.35.24:105][  0]LogOcInput: OculusInput pre-init called
-[2019.03.15-07.35.24:408][  0]LogEngine: Initializing Engine...
-[2019.03.15-07.35.24:412][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.15-07.35.24:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
-[2019.03.15-07.35.24:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-07.35.24:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-07.35.24:417][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-07.35.24:987][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.15-07.35.25:061][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.15-07.35.25:093][  0]LogInit: XAudio2 using 'Højttaler / høretelefoner (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.03.15-07.35.25:119][  0]LogInit: FAudioDevice initialized.
-[2019.03.15-07.35.25:119][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.15-07.35.25:304][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.03.15-07.35.25:331][  0]LogInit: Texture streaming: Enabled
-[2019.03.15-07.35.25:369][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.15-07.35.25:402][  0]LogInit: Transaction tracking system initialized
-[2019.03.15-07.35.25:554][  0]BlueprintLog: New page: Editor Load
-[2019.03.15-07.35.25:907][  0]LocalizationService: Localization service is disabled
-[2019.03.15-07.35.27:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/' took 0.02s
-[2019.03.15-07.35.27:739][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.15-07.35.27:739][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.15-07.35.27:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.15-07.35.27:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.15-07.35.27:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.15-07.35.27:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.15-07.35.27:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.15-07.35.28:280][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.15-07.35.28:281][  0]LightingResults: New page: Lighting Build
-[2019.03.15-07.35.28:298][  0]MapCheck: New page: Map Check
-[2019.03.15-07.35.28:298][  0]LightingResults: New page: Lighting Build
-[2019.03.15-07.35.29:730][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.03.15-07.35.29:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.15-07.35.29:831][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.15-07.35.29:832][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,247ms to complete.
-[2019.03.15-07.35.29:832][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.553
-[2019.03.15-07.35.30:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-07.35.30:090][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-07.35.30:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-07.35.30:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.15-07.35.30:148][  0]LogCollectionManager: Loaded 0 collections in 0.004546 seconds
-[2019.03.15-07.35.30:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Collections/' took 0.01s
-[2019.03.15-07.35.30:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Developers/Frederik/Collections/' took 0.01s
-[2019.03.15-07.35.30:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Collections/' took 0.00s
-[2019.03.15-07.35.30:204][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.03.15-07.35.30:229][  0]LogContentBrowser: Native class hierarchy populated in 0.0218 seconds. Added 2651 classes and 620 folders.
-[2019.03.15-07.35.30:251][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.15-07.35.30:269][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:329][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:339][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:349][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:358][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:368][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:414][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:433][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:440][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:447][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:497][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:513][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.03.15-07.35.30:848][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.15-07.35.30:870][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.03.15-07.35.30:979][  0]LogSlate: Took 0.017515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.15-07.35.30:989][  0]LogSlate: Took 0.008215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.15-07.35.31:006][  0]LogSlate: Took 0.009344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.15-07.35.31:262][  0]LogRenderer: Reallocating scene render targets to support 1096x512 Format 9 NumSamples 1 (Frame:1).
-[2019.03.15-07.35.32:285][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.03.15-07.35.32:285][  0]LogLoad: (Engine Initialization) Total time: 38.24 seconds
-[2019.03.15-07.35.32:285][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.15-07.35.32:373][  0]LogContentStreaming: Texture pool size now 600 MB
-[2019.03.15-07.35.32:392][  0]LogSlate: Took 0.006877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.15-07.35.32:647][  3]LogAssetRegistry: Asset discovery search completed in 21.4920 seconds
-[2019.03.15-07.35.32:648][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.15-07.35.32:649][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
-[2019.03.15-07.35.33:326][ 41]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.15-07.35.35:045][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:092][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:095][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.03.15-12.23.31:095][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.03.15-12.23.31:096][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.03.15-12.23.31:096][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-12.23.31:096][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-12.23.31:115][  0]LogHAL: Display: Platform has ~ 16 GB [17057013760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.03.15-12.23.31:115][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.15-12.23.31:115][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.03.15-12.23.31:115][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Scalability.ini]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2019.03.15-12.23.31:116][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.03.15-12.23.31:117][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.03.15-12.23.31:117][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Config/Windows/Engine.ini]
+[2019.03.15-12.23.31:117][  0]LogInit: Computer: DESKTOP-FDNF9FS
+[2019.03.15-12.23.31:117][  0]LogInit: User: Frederik
+[2019.03.15-12.23.31:117][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.03.15-12.23.31:117][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2019.03.15-12.23.31:117][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-12.23.31:117][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-12.23.31:117][  0]LogMemory: Process Physical Memory: 102.49 MB used, 102.49 MB peak
+[2019.03.15-12.23.31:117][  0]LogMemory: Process Virtual Memory: 84.63 MB used, 84.63 MB peak
+[2019.03.15-12.23.31:117][  0]LogMemory: Physical Memory: 8461.95 MB used,  7804.89 MB free, 16266.84 MB total
+[2019.03.15-12.23.31:117][  0]LogMemory: Virtual Memory: 4628.92 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.03.15-12.23.31:147][  0]LogInit: Using OS detected language (da-DK).
+[2019.03.15-12.23.31:147][  0]LogInit: Using OS detected locale (da-DK).
+[2019.03.15-12.23.31:149][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2019.03.15-12.23.31:682][  0]LogStreaming: Display: Took  0.534s to InitEngineTextLocalization.
+[2019.03.15-12.23.31:743][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.15-12.23.31:743][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.15-12.23.32:055][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-12.23.32:055][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-12.23.32:070][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2019.03.15-12.23.32:070][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.03.15-12.23.32:544][  0]LogD3D11RHI:    1. 'AMD Radeon (TM) R7 M360' (Feature Level 11_0)
+[2019.03.15-12.23.32:544][  0]LogD3D11RHI:       2039/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2019.03.15-12.23.32:546][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-12.23.32:547][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-12.23.32:547][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.03.15-12.23.32:557][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-12.23.32:557][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-12.23.32:557][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-12.23.32:558][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2019.03.15-12.23.32:558][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.03.15-12.23.32:558][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2019.03.15-12.23.32:559][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.15-12.23.32:559][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R7 M360
+[2019.03.15-12.23.32:559][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.15-12.23.32:559][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.15-12.23.32:559][  0]LogRHI: Texture pool is 1427 MB (70% of 2039 MB)
+[2019.03.15-12.23.32:597][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-12.23.32:613][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.03.15-12.23.33:186][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-12.23.33:207][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-12.23.33:224][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-12.23.33:244][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-12.23.33:262][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.15-12.23.33:282][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-12.23.33:301][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-12.23.33:324][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-12.23.33:333][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:443][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-12.23.33:445][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-12.23.33:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-12.23.33:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.15-12.23.33:564][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-12.23.33:564][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-12.23.33:582][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-12.23.33:600][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-12.23.33:618][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-12.23.33:635][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-12.23.33:701][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-12.23.33:701][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.15-12.23.33:701][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.15-12.23.33:799][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Intermediate/Shaders/WorkingDirectory/2748/).
+[2019.03.15-12.23.33:799][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik/AppData/Local/Temp/UnrealShaderWorkingDir/5A32C6A640398A0DD81C90949B3684A9/'.
+[2019.03.15-12.23.33:804][  0]LogXGEController: Cleaning working directory: C:/Users/Frederik/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.15-12.23.33:805][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.15-12.23.33:805][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.15-12.23.33:805][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.15-12.23.34:649][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-12.23.34:719][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-12.23.34:752][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-12.23.34:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-12.23.34:752][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.03.15-12.23.34:765][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-12.23.34:765][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.15-12.23.34:765][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.15-12.23.34:802][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.15-12.23.34:805][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.15-12.23.34:806][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-12.23.34:948][  0]LogAssetRegistry: FAssetRegistry took 0.0457 seconds to start up
+[2019.03.15-12.23.35:476][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-12.23.35:715][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-12.23.35:722][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-12.23.35:722][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.15-12.23.35:722][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-12.23.35:722][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.15-12.23.35:742][  0]LogNetVersion: Game 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3732308353)
+[2019.03.15-12.23.36:454][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.074440 seconds
+[2019.03.15-12.23.36:465][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.03.15-12.23.36:465][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.03.15-12.23.36:465][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-12.23.37:776][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-12.23.37:790][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-12.23.38:765][  0]SourceControl: Source control is disabled
+[2019.03.15-12.23.39:591][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.15-12.23.39:665][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-12.23.39:836][  0]LogEngine: Initializing Engine...
+[2019.03.15-12.23.39:838][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-12.23.39:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-12.23.39:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-12.23.39:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-12.23.39:840][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-12.23.40:190][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.15-12.23.40:217][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-12.23.40:270][  0]LogInit: XAudio2 using 'Højttaler / høretelefoner (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-12.23.40:296][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-12.23.40:297][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.15-12.23.40:479][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/Frederik/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.03.15-12.23.40:493][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-12.23.40:523][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.15-12.23.40:545][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-12.23.40:590][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-12.23.40:727][  0]LocalizationService: Localization service is disabled
+[2019.03.15-12.23.42:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/' took 0.02s
+[2019.03.15-12.23.42:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-12.23.42:148][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.15-12.23.42:149][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.15-12.23.42:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.15-12.23.42:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-12.23.42:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.15-12.23.42:149][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-12.23.42:388][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-12.23.42:388][  0]LightingResults: New page: Lighting Build
+[2019.03.15-12.23.42:393][  0]MapCheck: New page: Map Check
+[2019.03.15-12.23.42:393][  0]LightingResults: New page: Lighting Build
+[2019.03.15-12.23.43:235][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.15-12.23.43:253][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-12.23.43:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-12.23.43:285][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,267ms to complete.
+[2019.03.15-12.23.43:285][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.897
+[2019.03.15-12.23.43:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.23.43:434][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.23.43:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.23.43:470][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.15-12.23.43:485][  0]LogCollectionManager: Loaded 0 collections in 0.005264 seconds
+[2019.03.15-12.23.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Saved/Collections/' took 0.01s
+[2019.03.15-12.23.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Developers/Frederik/Collections/' took 0.00s
+[2019.03.15-12.23.43:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik/Documents/Unreal Projects/SpilProjekt3/Game/Content/Collections/' took 0.00s
+[2019.03.15-12.23.43:508][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.03.15-12.23.43:526][  0]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2651 classes and 620 folders.
+[2019.03.15-12.23.43:540][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.23.43:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:544][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:546][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:547][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:548][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:551][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:552][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:553][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:557][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:561][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:562][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:566][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.03.15-12.23.43:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.23.43:661][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.03.15-12.23.43:689][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.15-12.23.43:692][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.15-12.23.43:703][  0]LogSlate: Took 0.000677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.15-12.23.43:860][  0]LogRenderer: Reallocating scene render targets to support 1096x512 Format 9 NumSamples 1 (Frame:1).
+[2019.03.15-12.23.44:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.15-12.23.44:146][  0]LogLoad: (Engine Initialization) Total time: 16.00 seconds
+[2019.03.15-12.23.44:146][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.15-12.23.44:166][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.15-12.23.44:230][  0]LogContentStreaming: Texture pool size now 600 MB
+[2019.03.15-12.23.44:243][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-12.23.44:506][  4]LogAssetRegistry: Asset discovery search completed in 9.5795 seconds
+[2019.03.15-12.23.44:510][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.15-12.23.44:510][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2019.03.15-12.23.45:208][ 43]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.15-12.23.46:647][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.15-12.27.58:420][617]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-12.28.03:581][618]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-12.28.04:000][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-12.28.04:530][620]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-12.28.05:031][621]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-12.28.05:528][622]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-13.58.06:082][721]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.37:208][721]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.37:208][721]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.37:208][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:209][721]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.03.15-14.11.37:902][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.38:644][725]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.39:040][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.39:372][727]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.03.15-14.11.44:354][729]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (7.145 sec). This should never happen. Something is wrong with the timer delegate!
